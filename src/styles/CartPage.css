@@ -1,0 +1,158 @@
+/* Cart Page */
+.cart-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.cart-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cart-item:hover {
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+.cart-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.cart-item div {
+  flex: 1;
+}
+
+.cart-item h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.cart-item p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.cart-item button {
+  padding: 6px 12px;
+  border: none;
+  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.cart-item button:hover {
+  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.cart-item .remove-btn {
+  background-color: #f44336;
+}
+
+.cart-item .remove-btn:hover {
+  background-color: #ec971f;
+}
+
+.cart-total {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.cart-total span {
+  color: #333;
+}
+
+.cart-total button {
+  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
+  color: white;
+  padding: 12px 25px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.cart-total button:hover {
+  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.cart-page a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #ff9900; /* Consistent button color */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cart-page a:hover {
+  text-decoration: underline;
+}
+
+/* Back to Product Button */
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.back-btn:hover {
+  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Checkout Button (Positioned Bottom-Right) */
+.checkout-btn {
+  position: fixed;
+
+  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
+  color: white;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.checkout-btn:hover {
+  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}

@@ -1,0 +1,119 @@
+/* ProductView.css */
+
+.product-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.product-view img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.info {
+  margin-left: 20px;
+  flex-grow: 1;
+  text-align: center; /* Center the text for better alignment */
+}
+
+.info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333; /* Darker color for the product name */
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #2d3d44;
+  margin-bottom: 20px;
+}
+
+.add-to-cart-btn, .buy-btn {
+  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  margin-top: 10px;
+}
+
+.add-to-cart-btn:hover, .buy-btn:hover {
+  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.cart-info {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.cart-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #333; /* Dark color for the section header */
+}
+
+.cart-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-info li {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #f0ad4e; /* Success status color */
+  margin-top: 20px;
+}
+
+/* Payment failure color */
+p.payment-failure {
+  color: #e74c3c; /* Red color for payment failure */
+}
+
+/* Back to Product Button */
+.back1-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
+  color: rgb(26, 25, 25); /* Dark text for better contrast */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.back1-btn:hover {
+  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.cart-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333; /* Dark color for the cart icon */
+}
