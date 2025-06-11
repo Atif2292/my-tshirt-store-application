@@ -3,36 +3,38 @@
   max-width: 900px;
   margin: auto;
   padding: 20px;
-  font-family: sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #111;
 }
 
 .cart-page h1 {
   text-align: center;
   margin-bottom: 30px;
-  font-size: 24px;
-  color: #333;
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
 }
 
 .cart-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #ddd;
-  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
   margin-bottom: 20px;
   padding: 15px;
-  background-color: #fff;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
   transition: transform 0.3s ease;
 }
 
 .cart-item:hover {
-  transform: scale(1.02); /* Slight zoom effect on hover */
+  transform: scale(1.02);
 }
 
 .cart-item img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
   margin-right: 20px;
 }
@@ -43,73 +45,61 @@
 
 .cart-item h3 {
   margin: 0;
-  font-size: 18px;
-  color: #333;
+  font-size: 16px;
+  color: #111;
 }
 
 .cart-item p {
   margin: 5px 0;
-  color: #555;
   font-size: 14px;
+  color: #444;
 }
 
 .cart-item button {
   padding: 6px 12px;
-  border: none;
-  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
-  color: white;
-  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
-  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  transition: all 0.3s ease;
 }
 
 .cart-item button:hover {
-  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
-  transform: scale(1.05); /* Slight zoom effect on hover */
-}
-
-.cart-item .remove-btn {
-  background-color: #f44336;
-}
-
-.cart-item .remove-btn:hover {
-  background-color: #ec971f;
+  background-color: #fff;
+  color: #000;
 }
 
 .cart-total {
   text-align: right;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 600;
   margin-top: 20px;
-}
-
-.cart-total span {
-  color: #333;
+  color: #111;
 }
 
 .cart-total button {
-  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
-  color: white;
-  padding: 12px 25px;
+ 
+  padding: 10px 20px;
   margin-top: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  transition: all 0.3s ease;
 }
 
 .cart-total button:hover {
-  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  background-color: #fff;
+ 
 }
 
 .cart-page a {
   display: inline-block;
   margin-top: 20px;
   text-decoration: none;
-  color: #ff9900; /* Consistent button color */
+  color: #000;
   font-size: 16px;
   font-weight: 500;
 }
@@ -118,41 +108,92 @@
   text-decoration: underline;
 }
 
-/* Back to Product Button */
+/* Back Button */
 .back-btn {
   position: absolute;
   top: 20px;
   left: 20px;
-  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
-  color: white;
-  padding: 10px 20px;
+  background-color: #8b8585;
+  color: #fff;
+  padding: 8px 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
+  font-size: 14px;
   cursor: pointer;
-  font-size: 16px;
-  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  transition: all 0.3s ease;
 }
 
 .back-btn:hover {
-  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
 }
 
-/* Checkout Button (Positioned Bottom-Right) */
+/* Checkout Button */
 .checkout-btn {
   position: fixed;
-
-  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
-  color: white;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000;
+  color: #fff;
   padding: 12px 25px;
-  font-size: 18px;
+  font-size: 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  transition: all 0.3s ease;
 }
 
 .checkout-btn:hover {
-  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+/* --------- Mobile Responsive --------- */
+@media (max-width: 768px) {
+  .cart-page {
+    padding: 10px;
+  }
+
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .cart-item div {
+    width: 100%;
+  }
+
+  .cart-item button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .cart-total {
+    text-align: center;
+  }
+
+  .cart-total button {
+    width: 100%;
+  }
+
+  .checkout-btn {
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .back-btn {
+    position: static;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 }

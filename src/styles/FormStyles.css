@@ -1,150 +1,107 @@
-/* Apply background image to the whole page (body) */
+/* ======= Global Styles ======= */
 body {
-    background-image: url('../images/IMG_9771.JPG'); /* Replace with your image URL or path */
-    background-size: 100%; /* Ensure the image covers the entire screen */
-    background-position:  100%; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    margin-top: 0;
-    padding: 0;
-    font-family: Arial, sans-serif; /* Optional: Set a default font */
-  }
-  .back-btn {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 8px 14px;
-    font-size: 16px;
-    background-color: #f0f0f0;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    z-index: 100;
-  }
-  
-  .back-btn:hover {
-    background-color: #ddd;
-  }
-  
-  
-/* Wrapper to center content */
-.about-container {
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    background: linear-gradient(135deg, #fbf3f3,);  /* Matching background gradient */
-    padding: 0;
-    margin: 0;
-  }
-  .about-wrapper {
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    background: linear-gradient(135deg, #fbf3f3,);  /* Matching background gradient */
-    padding: 0;
-    margin: 0;
-  }
-  /* Centered Box Styling */
-  .about-box {
-    background-color: #ffffff; /* White background for the box */
-    padding: 30px;
-    border-radius: 15px; /* Rounded corners */
-    max-width: 800px; /* Max width for the box */
-    width: 100%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  /* Heading styling */
-  .about-box h2 {
-    font-size: 32px;
-    color: #2c3e50; /* Darker text for the heading */
-    margin-bottom: 20px;
-  }
-  
-  /* Paragraph styling */
-  .about-box p {
-    font-size: 18px;
-    color: #34495e; /* Text color matching home page */
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  /* Last paragraph styling */
-  .about-box p:last-child {
-    font-size: 20px;
-    font-weight: bold;
-    color:#ff4c4c; /* Blue color for the last paragraph */
-  }
-  /* Wrapper to center content */
+  background-color: #fff;
+  background-image: none;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* ======= Back Button ======= */
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 8px 14px;
+  font-size: 16px;
+  background-color: #eee;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 100;
+}
+.back-btn:hover {
+  background-color: #ddd;
+}
+
+/* ======= Centered Section Wrapper ======= */
+.about-container,
+.about-wrapper,
 .contact-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    background:  linear-gradient(135deg,  #fbf3f3);  /* Matching background gradient */
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* Centered Box Styling for Contact Us */
-  .contact-box {
-    background-color: #ffffff; /* White background for the box */
-    padding: 30px;
-    border-radius: 15px; /* Rounded corners */
-    max-width: 800px; /* Max width for the box */
-    width: 100%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  /* Heading styling */
-  .contact-box h2 {
-    font-size: 32px;
-    color: #2c3e50; /* Darker text for the heading */
-    margin-bottom: 20px;
-  }
-  
-  /* Paragraph styling */
-  .contact-box p {
-    font-size: 18px;
-    color: #34495e; /* Text color matching home page */
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  /* Form Styling */
-  .contact-box form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  /* Input and textarea styling */
-  .contact-box input,
-  .contact-box textarea {
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-  }
-  
-  .contact-box button {
-    padding: 12px;
-    background-color:#ff4c4c; /* Button color */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contact-box button:hover {
-    background-color: #2980b9; /* Darker shade on hover */
-  }
-  
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 0;
+  margin: 0;
+}
+
+/* ======= Box Styling (About + Contact) ======= */
+.about-box,
+.contact-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* ======= Headings ======= */
+.about-box h2,
+.contact-box h2 {
+  font-size: 28px;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+/* ======= Paragraphs ======= */
+.about-box p,
+.contact-box p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about-box p:last-child {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
+
+/* ======= Contact Form ======= */
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fafafa;
+  color: #000;
+}
+
+.contact-box button {
+  padding: 12px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-box button:hover {
+  background-color: #333;
+}

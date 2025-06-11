@@ -70,8 +70,9 @@ function ProductPage() {
         {cartItemCount > 0 && (
      <span className="cart-item-count">{cartItemCount}</span>)}
       </div>
-      <button className='back1-btn 'to="/">← Back to Products</button>
-    </div>
+<button className='back1-btn' onClick={() => navigate('/product-grid')}>
+  ← Back to Products
+</button>    </div>
   );
 }
 

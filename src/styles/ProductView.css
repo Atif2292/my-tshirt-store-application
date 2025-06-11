@@ -38,7 +38,7 @@
 }
 
 .add-to-cart-btn, .buy-btn {
-  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
+  background-color: #000; /* Matching color */
   color: white;
   border: none;
   padding: 12px 20px;
@@ -46,13 +46,12 @@
   margin-right: 10px;
   border-radius: 4px;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease;
   margin-top: 10px;
 }
 
 .add-to-cart-btn:hover, .buy-btn:hover {
-  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
-  transform: scale(1.05); /* Slight scale effect on hover */
+  background-color: #000; /* Darker shade for hover effect */
 }
 
 .cart-info {
@@ -80,13 +79,13 @@
 
 p {
   font-size: 1.2rem;
-  color: #f0ad4e; /* Success status color */
+  color: #3b3a38; /* Success status color */
   margin-top: 20px;
 }
 
 /* Payment failure color */
 p.payment-failure {
-  color: #e74c3c; /* Red color for payment failure */
+  color: #000; /* Red color for payment failure */
 }
 
 /* Back to Product Button */
@@ -94,19 +93,18 @@ p.payment-failure {
   position: absolute;
   top: 20px;
   left: 20px;
-  background: linear-gradient(135deg, #ff4c4c, #ff9900); /* Gradient background */
+  /* background-color:Consistent color */
   color: rgb(26, 25, 25); /* Dark text for better contrast */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease;
 }
 
 .back1-btn:hover {
-  background: linear-gradient(135deg, #ff9900, #ff4c4c); /* Reverse gradient on hover */
-  transform: scale(1.05); /* Slight scale effect on hover */
+  background-color: #e7e2e2; /* Darker shade for hover effect */
 }
 
 .cart-icon {
