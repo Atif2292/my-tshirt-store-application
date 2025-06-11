@@ -19,21 +19,24 @@ function Home() {
       
       {/* Navbar */}
       <nav className="navbar">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/product-grid">Shop</a></li>
-          <li><a href="/about">About Us</a></li>
-          <li><a href="/contact">Contact Us</a></li>
-         <li><a href="/refund">RefundPolicy</a></li>
-           <li><a href="/privacy">PrivacyPolicy</a></li>
-             <li><a href="/terms">TermsAndConditions</a></li>
-        </ul>
-      </nav>
+  <div className="navbar-left">
+    <img src="/logo01.png" alt="Logo" className="logo-img" />
+  </div>
+  <ul className="navbar-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/product-grid">Shop</a></li>
+    <li><a href="/about">About Us</a></li>
+    <li><a href="/contact">Contact Us</a></li>
+    <li><a href="/refund">Refund</a></li>
+    <li><a href="/privacy">Privacy</a></li>
+    <li><a href="/terms">Terms</a></li>
+  </ul>
+</nav>
 
       {/* Logo above banner */}
-      <div className="logo">
+      {/* <div className="logo">
         <img src="/logo01.png" alt="StyleByBuddy Logo" />
-      </div>
+      </div> */}
 
       {/* Hero Banner with Slider */}
       <div className="hero-banner">

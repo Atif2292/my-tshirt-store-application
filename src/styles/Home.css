@@ -320,6 +320,64 @@ body {
   background: #000;
   border-radius: 6px;
 }
+/* Navbar container */
+.navbar {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+/* Logo styling */
+.logo-img {
+  width: 70px;
+  height: auto;
+}
+
+/* Nav links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .navbar-links li {
+    width: 100%;
+  }
+
+  .navbar-links li a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .logo-img {
+    width: 60px;
+  }
+}
 
 /* Responsive */
 
