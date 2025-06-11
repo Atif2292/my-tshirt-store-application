@@ -322,12 +322,27 @@ body {
 }
 
 /* Responsive */
+
 @media (max-width: 768px) {
-  .navbar ul {
+   .navbar ul {
     flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
   }
+  html, body {
+  overflow-x: hidden;
+}
 
+
+  .navbar {
+    padding: 15px;
+    text-align: left;
+  }
+
+  .navbar li a {
+    display: block;
+    width: 100%;
+  }
   .logo {
     top: 10px;
     left: 10px;
