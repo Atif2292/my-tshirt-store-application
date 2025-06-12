@@ -58,7 +58,7 @@
 
     // Razorpay integration first
     try {
-      const { data: order } = await axios.post('http://localhost:5000/create-order', {
+      const { data: order } = await axios.post('https://tshirt-backend-1.onrender.com/create-order', {
         amount: total * 100
       });
 
