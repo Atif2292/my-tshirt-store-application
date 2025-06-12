@@ -11,7 +11,7 @@ import CartPage from './pages/CartPage';
 import TermsAndConditions from "./pages/TermsAndConditions";
 import RefundPolicy from "./pages/ RefundPolicy";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-
+import OrderSummary from './pages/OrderSummary';
 function App() {
   return (
     <Router>
@@ -22,6 +22,7 @@ function App() {
   <Route path="/terms" element={<TermsAndConditions />} />
 <Route path="/refund" element={<RefundPolicy />} />
 <Route path="/privacy" element={<PrivacyPolicy />} />
+  <Route path="/order-summary" element={<OrderSummary />} />
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
