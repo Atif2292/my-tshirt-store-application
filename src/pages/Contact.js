@@ -12,8 +12,8 @@ const Contact = () => {
         <p>We’d love to hear from you. For any queries or support, use the form or reach us directly:</p>
 
         <div className="contact-details">
-          <p><strong>Email:</strong> help@stylebybuddy.com</p>
-          <p><strong>Phone:</strong> +91-9876543210</p>
+          <p><strong>Email:</strong> buddycollectionhub@gmail.com</p>
+          <p><strong>Phone:</strong> +91-9667008242</p>
         </div>
 
         <form>

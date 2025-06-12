@@ -50,7 +50,13 @@ const tshirts = [
       image: 'y.jpg',
     },
  
-  
+   {
+      id: '8',
+      name: 'Oversized Tee',
+      price: 1,
+      category: 'Men',
+      image: 'y.jpg',
+    },
 ];
 
 export default tshirts;
