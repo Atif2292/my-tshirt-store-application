@@ -12,6 +12,9 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import RefundPolicy from "./pages/ RefundPolicy";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import OrderSummary from './pages/OrderSummary';
+import CustomisedPage from './pages/CustomisedPage';
+import OversizedPage from './pages/OversizedPage';
+import AnimePage from './pages/AnimePage';
 function App() {
   return (
     <Router>
@@ -26,6 +29,9 @@ function App() {
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+         <Route path="/customised" element={<CustomisedPage />} />
+        <Route path="/oversized" element={<OversizedPage />} />
+        <Route path="/anime" element={<AnimePage />} />
       </Routes>
     </Router>
   );

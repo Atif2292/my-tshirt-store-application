@@ -62,6 +62,8 @@ const ProductGridPage = () => {
         <button onClick={() => setCategory('All')}>All</button>
         <button onClick={() => setCategory('Men')}>Men</button>
         <button onClick={() => setCategory('Women')}>Women</button>
+      
+        
       </div>
 
       {/* Product Grid */}

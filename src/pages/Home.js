@@ -62,6 +62,26 @@ function Home() {
         Shop Now
       </button>
 
+  {/* 👉 3 Block Type Columns */}
+<div className="category-columns">
+  <div className="category-box" onClick={() => navigate('/customised')}>
+    <img src="/customised.jpg" alt="Customised" />
+    <h3>Customised</h3>
+    <p>Design your vibe</p>
+  </div>
+  <div className="category-box" onClick={() => navigate('/oversized')}>
+    <img src="/oversized.jpg" alt="Oversized" />
+    <h3>Oversized Tee</h3>
+    <p>Comfort meets cool</p>
+  </div>
+  <div className="category-box" onClick={() => navigate('/anime')}>
+    <img src="/anime.jpg" alt="Anime Merch" />
+    <h3>Anime Merch</h3>
+    <p>Unleash your otaku side</p>
+  </div>
+</div>
+
+
       {/* About Us */}
       <div className="about-wrapper">
         <div className="about-box">
