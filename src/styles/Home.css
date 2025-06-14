@@ -423,6 +423,23 @@ body {
 }
 
 /* Responsive */
+@media (max-width: 768px) {
+  .text-overlay {
+    top: 40%; /* adjust to visually center */
+    transform: translate(-50%, -40%); /* change vertical shift */
+    padding: 0 10px; /* just to avoid text overflow */
+  }
+
+  .store-name {
+    font-size: 20px;
+    padding: 10px 16px;
+  }
+
+  .tag {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
 
 @media (max-width: 768px) {
    .navbar ul {
