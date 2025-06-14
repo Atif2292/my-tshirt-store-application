@@ -115,3 +115,42 @@ p.payment-failure {
   cursor: pointer;
   color: #333; /* Dark color for the cart icon */
 }
+.related-products {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.related-products h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.related-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.related-item {
+  width: 30%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.related-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.related-item p {
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+.related-item span {
+  font-weight: bold;
+  color: #000;
+}

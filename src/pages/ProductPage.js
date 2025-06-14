@@ -64,6 +64,27 @@ function ProductPage() {
           Go to Cart
         </button>
       </div>
+      {/* Related Products */}
+<div className="related-products">
+  <h3>You May Also Like</h3>
+  <div className="related-list">
+    {tshirts
+      .filter(item => item.id !== tshirt.id) // remove current one
+      .slice(0, 3) // show only 3 related
+      .map(item => (
+        <div
+          key={item.id}
+          className="related-item"
+          onClick={() => navigate(`/product/${item.id}`)}
+        >
+          <img src={item.image} alt={item.name} />
+          <p>{item.name}</p>
+          <span>₹{item.price}</span>
+        </div>
+      ))}
+  </div>
+</div>
+
        {/* Cart Icon */}
        <div className="cart-icon" onClick={goToCart}>
         🛒
