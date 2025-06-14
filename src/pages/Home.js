@@ -36,18 +36,21 @@ function Home() {
 
 
       {/* Hero Banner with Slider */}
-      <div className="hero-banner">
-        <div className="text-overlay">
-          <h1 className="store-name">styleByBuddy</h1>
-          <div className="tag">New Arrival</div>
-        </div>
-        <div className="slider">
-          <div className="slides">
-            <img src="/banner-01.jpg" alt="Tshirt Banner" />
-            <img src="/banner-02.jpg" alt="Banner 2" />
-          </div>
-        </div>
-      </div>
+   <div className="hero-banner">
+  <div className="slider">
+    <div className="slides">
+      <img src="/banner-01.jpg" alt="Tshirt Banner" />
+      <img src="/banner-02.jpg" alt="Banner 2" />
+    </div>
+
+    {/* Moved overlay here */}
+    <div className="text-overlay">
+      <h1 className="store-name">styleByBuddy</h1>
+      <div className="tag">New Arrival</div>
+    </div>
+  </div>
+</div>
+
 
       {/* Section Heading */}
       <div className="section-heading">
