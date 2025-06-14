@@ -62,12 +62,12 @@ function Home() {
         Shop Now
       </button>
 
-  {/* 👉 3 Block Type Columns */}
+ 
 <div className="category-columns">
-  <div className="category-box" onClick={() => navigate('/customised')}>
-    <img src="/customised.jpg" alt="Customised" />
-    <h3>Customised</h3>
-    <p>Design your vibe</p>
+  <div className="category-box" onClick={() => navigate('/oneliners')}>
+    <img src="/customised.jpg" alt="OneLiner" />
+    <h3>OneLiners</h3>
+    <p>Match your vibe</p>
   </div>
   <div className="category-box" onClick={() => navigate('/oversized')}>
     <img src="/oversized.jpg" alt="Oversized" />

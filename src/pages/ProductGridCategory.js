@@ -17,7 +17,7 @@ function ProductGridCategory({ title, data }) {
             <div className="product-info">
               <h3>{product.name}</h3>
               <p>₹{product.price}</p>
-              <button>View</button>
+              <button onClick={() => navigate(`/product/${product.id}`)}>View</button>
             </div>
           </div>
         ))}

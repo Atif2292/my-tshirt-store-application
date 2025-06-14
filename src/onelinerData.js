@@ -1,18 +1,18 @@
-const customisedData = [
+const onelinersData = [
   {
     id: 1,
-    name: "Custom Name Tee",
+    name: "Oneliner  Tee",
     price: 799,
     image: "/products/custom1.jpg",
-    category: "Customised"
+    category: "oneLiner"
   },
   {
     id: 2,
     name: "Photo Printed Tee",
     price: 999,
     image: "/products/custom2.jpg",
-    category: "Customised"
+    category: "OneLiners"
   }
 ];
 
-export default customisedData;
+export default  onelinersData ;

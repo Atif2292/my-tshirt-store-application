@@ -12,7 +12,7 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import RefundPolicy from "./pages/ RefundPolicy";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import OrderSummary from './pages/OrderSummary';
-import CustomisedPage from './pages/CustomisedPage';
+import OneLiners from './pages/OneLiners';
 import OversizedPage from './pages/OversizedPage';
 import AnimePage from './pages/AnimePage';
 function App() {
@@ -29,7 +29,7 @@ function App() {
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-         <Route path="/customised" element={<CustomisedPage />} />
+         <Route path="/oneliners" element={<OneLiners />} />
         <Route path="/oversized" element={<OversizedPage />} />
         <Route path="/anime" element={<AnimePage />} />
       </Routes>

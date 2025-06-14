@@ -26,7 +26,7 @@ const tshirts = [
       name: 'Classic Black Tee',
       price: 599,
       category: 'Men',
-      image: '/back.jpg',
+      image: '/black.jpg',
     },
     {
       id: '5',

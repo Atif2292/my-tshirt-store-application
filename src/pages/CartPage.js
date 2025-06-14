@@ -220,7 +220,7 @@ const [loading, setLoading] = useState(false);
   </div>
 )}
 
-        <Link className='back-btn' to="/">← Back to Products</Link>
+        <Link className='back-btn' to="/product-grid">← Back to Products</Link>
       </div>
     );
   }
