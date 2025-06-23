@@ -12,16 +12,19 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import RefundPolicy from "./pages/ RefundPolicy";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import OrderSummary from './pages/OrderSummary';
-import OneLiners from './pages/OneLiners';
-import OversizedPage from './pages/OversizedPage';
-import AnimePage from './pages/AnimePage';
+
+import anime from './animeData.js';
+import oversized from './oversizedData.js';
+import oneliner from './onelinerData.js';
+import ProductGridCategory from './pages/ProductGridCategory';
+
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product-grid" element={<ProductGridPage />} />
-        <Route path="/product/:id" element={<ProductPage />} />
+<Route path="/product/category/:id" element={<ProductPage />} />
   <Route path="/terms" element={<TermsAndConditions />} />
 <Route path="/refund" element={<RefundPolicy />} />
 <Route path="/privacy" element={<PrivacyPolicy />} />
@@ -29,9 +32,13 @@ function App() {
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-         <Route path="/oneliners" element={<OneLiners />} />
-        <Route path="/oversized" element={<OversizedPage />} />
-        <Route path="/anime" element={<AnimePage />} />
+<Route path="/product/:id" element={<ProductPage />} />
+
+        <Route path="/anime" element={<ProductGridCategory title="Anime" data={anime} />} />
+<Route path="/oneliners" element={<ProductGridCategory title="One Liners" data={oneliner} />} />
+<Route path="/oversized" element={<ProductGridCategory title="Oversized" data={oversized} />} />
+
+
       </Routes>
     </Router>
   );

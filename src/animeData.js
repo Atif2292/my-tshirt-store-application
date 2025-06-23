@@ -1,16 +1,16 @@
 const animeData = [
   {
-    id: 1,
+    id: "anime-1",
     name: "Naruto Uchiha Tee",
     price: 899,
-    image: "/products/anime1.jpg",
+    image: "customised.jpg",
     category: "Anime"
   },
   {
-    id: 2,
+   id: "anime-2",
     name: "One Piece Strawhat Tee",
     price: 899,
-    image: "/products/anime2.jpg",
+    image: "anime.jpg",
     category: "Anime"
   }
 ];

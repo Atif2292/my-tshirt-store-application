@@ -87,6 +87,31 @@ p {
 p.payment-failure {
   color: #000; /* Red color for payment failure */
 }
+.size-selector {
+  margin: 20px 0;
+}
+
+.size-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.size-btn {
+  padding: 8px 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.size-btn.selected {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+}
 
 /* Back to Product Button */
 .back1-btn {

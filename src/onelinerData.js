@@ -1,16 +1,16 @@
 const onelinersData = [
   {
-    id: 1,
-    name: "Oneliner  Tee",
+  id: "oneliner-1",
+      name: "Oneliner  Tee",
     price: 799,
-    image: "/products/custom1.jpg",
+    image: "front.jpg",
     category: "oneLiner"
   },
   {
-    id: 2,
+      id: "oneliner-2",
     name: "Photo Printed Tee",
     price: 999,
-    image: "/products/custom2.jpg",
+    image: "bb.jpg",
     category: "OneLiners"
   }
 ];

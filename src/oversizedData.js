@@ -1,17 +1,17 @@
 
 const oversizedData = [
   {
-    id: 1,
+    id: "Oversize-1",
     name: "Oversized Tee 1",
     price: 799,
-    image: "/products/oversized1.jpg",
+    image: "e.jpg",
     category: "Oversized"
   },
   {
-    id: 2,
+    id: "Oversize-2",
     name: "Oversized Tee 2",
     price: 899,
-    image: "/products/oversized2.jpg",
+    image: "y.jpg",
     category: "Oversized"
   }
 ];
