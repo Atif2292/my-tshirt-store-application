@@ -45,7 +45,7 @@ function Home() {
 
     {/* Moved overlay here */}
     <div className="text-overlay">
-      <h1 className="store-name">styleByBuddy</h1>
+      <h1 className="store-name">styledByBuddy</h1>
       <div className="tag">New Arrival</div>
     </div>
   </div>

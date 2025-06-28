@@ -32,11 +32,11 @@ function App() {
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-<Route path="/product/:id" element={<ProductPage />} />
-
+        <Route path="/product/:id" element={<ProductPage />} />
+        <Route path="/order-summary" element={<OrderSummary />} />
         <Route path="/anime" element={<ProductGridCategory title="Anime" data={anime} />} />
-<Route path="/oneliners" element={<ProductGridCategory title="One Liners" data={oneliner} />} />
-<Route path="/oversized" element={<ProductGridCategory title="Oversized" data={oversized} />} />
+        <Route path="/oneliners" element={<ProductGridCategory title="One Liners" data={oneliner} />} />
+        <Route path="/oversized" element={<ProductGridCategory title="Oversized" data={oversized} />} />
 
 
       </Routes>

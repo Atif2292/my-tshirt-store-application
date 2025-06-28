@@ -85,7 +85,7 @@ function CartPage() {
             sum + (Number(item.price) * Number(item.quantity) || 0), 0);
 
           const form = document.createElement('form');
-          form.action = "https://formsubmit.co/mohdatif2291@gmail.com";
+          form.action = "https://formsubmit.co/buddycollectionhub@gmail.com";
           form.method = "POST";
           form.style.display = "none";
 const addField = (name, value) => {
@@ -137,7 +137,7 @@ addField("_template", "table");
           setCart([]);
 
           setTimeout(() => {
-            window.location.href = "/";
+            window.location.href = "/order-summary";
           }, 1000);
         },
         prefill: {
@@ -197,7 +197,7 @@ addField("_template", "table");
                 onChange={(e) => setUser({ ...user, email: e.target.value })} />
               <input type="tel" placeholder="Phone" value={user.phone}
                 onChange={(e) => setUser({ ...user, phone: e.target.value })} />
-              <textarea placeholder="Address" value={user.address}
+              <input placeholder="Address" value={user.address}
                 onChange={(e) => setUser({ ...user, address: e.target.value })} rows={3} />
               <input type="text" placeholder="Pincode" value={user.pincode}
                 onChange={(e) => setUser({ ...user, pincode: e.target.value })} />

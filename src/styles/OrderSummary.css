@@ -1,0 +1,32 @@
+.order-summary-page {
+  background: #fffdfd;
+  color: #111111;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.order-summary-page h1, .order-summary-page h3, .order-summary-page h4 {
+  margin: 10px 0;
+}
+
+.order-summary-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-summary-page li {
+  border-bottom: 1px solid #555;
+  padding: 8px 0;
+}
+
+.order-summary-page a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.order-summary-page a:hover {
+  color: #ccc;
+}
