@@ -130,6 +130,7 @@ addField("_template", "table");
             ...user,
             cart: latestCart,
             total: latestTotal,
+              orderId: order.id,
             paymentId: response.razorpay_payment_id
           }));
 
