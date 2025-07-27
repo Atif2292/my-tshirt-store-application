@@ -23,14 +23,16 @@ function CartPage() {
     localStorage.setItem('cart', JSON.stringify(newCart));
   };
 
-  const removeItem = (id) => {
-    const updatedCart = cart.filter(item => item.id !== id);
+  const removeItem = (id, size, color) => {
+    const updatedCart = cart.filter(item =>
+      !(item.id === id && item.size === size && item.color === color)
+    );
     updateCart(updatedCart);
   };
 
-  const changeQty = (id, amount) => {
+  const changeQty = (id, size, color, amount) => {
     const updated = cart.map(item =>
-      item.id === id
+      item.id === id && item.size === size && item.color === color
         ? { ...item, quantity: Math.max(1, Number(item.quantity) + amount) }
         : item
     );
@@ -41,7 +43,6 @@ function CartPage() {
     sum + (Number(item.price) * Number(item.quantity) || 0), 0);
 
   const handlePayment = async () => {
-    // Form validation
     const { name, email, phone, address, pincode, city, state } = user;
 
     if (!name || !email || !phone || !address || !pincode || !city || !state) {
@@ -88,40 +89,36 @@ function CartPage() {
           form.action = "https://formsubmit.co/buddycollectionhub@gmail.com";
           form.method = "POST";
           form.style.display = "none";
-const addField = (name, value) => {
-  const input = document.createElement('input');
-  input.name = name;
-  input.value = value;
-  input.type = "hidden";
-  form.appendChild(input);
-};
 
-// User Info
-addField("Name", name);
-addField("Email", email);
-addField("Phone", phone);
-addField("Address", address);
-addField("Pincode", pincode);
-addField("City", city);
-addField("State", state);
+          const addField = (name, value) => {
+            const input = document.createElement('input');
+            input.name = name;
+            input.value = value;
+            input.type = "hidden";
+            form.appendChild(input);
+          };
 
-// Order Summary
-addField("Order Summary", latestCart.map(item =>
-  `${item.name} (Size: ${item.size || 'M'}) × ${item.quantity} = ₹${item.price * item.quantity}`
-).join("\n") + `\n\nTotal: ₹${latestTotal}`);
+          addField("Name", name);
+          addField("Email", email);
+          addField("Phone", phone);
+          addField("Address", address);
+          addField("Pincode", pincode);
+          addField("City", city);
+          addField("State", state);
 
-// ✅ User will also receive confirmation
-addField("_replyto", email);
-const orderSummary = latestCart.map(item =>
-  `${item.name} (Size: ${item.size || 'M'}) × ${item.quantity} = ₹${item.price * item.quantity}`
-).join("\n") + `\n\nTotal: ₹${latestTotal}`;
+          addField("Order Summary", latestCart.map(item =>
+            `${item.name} (Size: ${item.size || 'M'}, Color: ${item.color || 'N/A'}) × ${item.quantity} = ₹${item.price * item.quantity}`
+          ).join("\n") + `\n\nTotal: ₹${latestTotal}`);
 
-addField("_autoresponse", `Thank you for your order!\n\nHere’s your order summary:\n\n${orderSummary}`);
+          addField("_replyto", email);
+          const orderSummary = latestCart.map(item =>
+            `${item.name} (Size: ${item.size || 'M'}, Color: ${item.color || 'N/A'}) × ${item.quantity} = ₹${item.price * item.quantity}`
+          ).join("\n") + `\n\nTotal: ₹${latestTotal}`;
 
-// FormSubmit settings
-addField("_captcha", "false");
-addField("_template", "table");
+          addField("_autoresponse", `Thank you for your order!\n\nHere’s your order summary:\n\n${orderSummary}`);
 
+          addField("_captcha", "false");
+          addField("_template", "table");
 
           document.body.appendChild(form);
           form.submit();
@@ -130,7 +127,7 @@ addField("_template", "table");
             ...user,
             cart: latestCart,
             total: latestTotal,
-              orderId: order.id,
+            orderId: order.id,
             paymentId: response.razorpay_payment_id
           }));
 
@@ -167,16 +164,17 @@ addField("_template", "table");
       ) : (
         <>
           {cart.map(item => (
-            <div className="cart-item" key={item.id + item.size}>
+            <div className="cart-item" key={item.id + item.size + item.color}>
               <img src={item.image} alt={item.name} />
               <div>
                 <h3>{item.name}</h3>
                 <p>Size: <strong>{item.size || 'M'}</strong></p>
+                <p>Color: <strong>{item.color || 'N/A'}</strong></p>
                 <p>₹{item.price} × {item.quantity}</p>
                 <div>
-                  <button onClick={() => changeQty(item.id, -1)}>-</button>
-                  <button onClick={() => changeQty(item.id, 1)}>+</button>
-                  <button onClick={() => removeItem(item.id)}>Remove</button>
+                  <button onClick={() => changeQty(item.id, item.size, item.color, -1)}>-</button>
+                  <button onClick={() => changeQty(item.id, item.size, item.color, 1)}>+</button>
+                  <button onClick={() => removeItem(item.id, item.size, item.color)}>Remove</button>
                 </div>
               </div>
             </div>

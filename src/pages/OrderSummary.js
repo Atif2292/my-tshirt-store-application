@@ -1,7 +1,7 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/OrderSummary.css';
+
 function OrderSummary() {
   const [summary, setSummary] = useState(null);
 
@@ -21,7 +21,9 @@ function OrderSummary() {
       <h4>Order Details:</h4>
       <ul>
         {summary.cart.map((item, i) => (
-          <li key={i}>{item.name} (Size: {item.size || 'M'}) x {item.quantity} = ₹{item.price * item.quantity}</li>
+          <li key={i}>
+            {item.name} (Size: {item.size || 'M'}, Color: {item.color || 'N/A'}) x {item.quantity} = ₹{item.price * item.quantity}
+          </li>
         ))}
       </ul>
 

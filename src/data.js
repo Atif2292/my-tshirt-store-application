@@ -1,143 +1,447 @@
 const tshirts = [
   {
     id: "1",
-    name: "Oversized White Tee",
-    price: 699,
-    image: '/1.jpg',
-    category: "Men"
-  },
-  {
-    id: "2",
-    name: "Graphic Pink T-shirt",
-    price: 799,
-    image: '/2.jpg',
-    category: "Women"
-  },
-  {
-    id: "3",
-    name: "Classic Black T-shirt",
-    price: 749,
-    image: '/bb.jpg',
-    category: "Trending"
-  },
-  
-    {
-      id: '4',
-      name: 'Classic Black Tee',
-      price: 599,
-      category: 'Men',
-      image: '/black.jpg',
+    name: "Cool Sanskari T-shirt",
+    price: 499,
+    category: "Men",
+    colors: ["Black", "White" , "Red"],
+    image:  "/Sanskari-499/SANSKARI FRONT.jpg", 
+    colorImages: {
+      Black: "/Sanskari-499/SANSKARI FRONT.jpg",
+      White: "/Sanskari-499/SANSKARI BACK WHITE.jpg",
+      Red:  "/Sanskari-499/SANSKARI red.jpg"   
+
     },
-    {
-      id: '5',
-      name: 'White Minimal Tee',
-      price: 499,
-      category: 'Women',
-      image: '/e.jpg',
-    },
-    {
-      id: '6',
-      name: 'Printed Street Tee',
-      price: 699,
-      category: 'Unisex',
-      image: '/cc.jpg',
-    },
-    {
-      id: '7',
-      name: 'Oversized Tee',
-      price: 799,
-      category: 'Men',
-      image: 'y.jpg',
-    },
- 
-   {
-      id: '8',
-      name: 'Oversized Tee',
-      price: 1,
-      category: 'Women',
-      image: 'y.jpg',
-    },
-     {
-      id: '9',
-      name: 'Red Front Men black',
-      price: 699,
-      category: 'Women',
-      image: '/RED FRONT men white.jpg',
-    },
-    {
-      id: '10',
-      name: 'Oversized Tee',
-      price: 799,
-      category: 'Men',
-      image: 'WHEAT FRONT men black.jpg',
-    },
- 
-   
-     {
-      id: '11',
-      name: 'Printed Street Tee',
-      price: 299,
-      category: 'Unisex',
-      image: '/SKY BLUE FRONT black.jpg',
-    },
-    
-  {
-    id: "anime-1",
-    name: "Naruto Uchiha Tee",
-    price: 899,
-    image: "customised.jpg",
-    category: "Anime"
-  },
-  {
-   id: "anime-2",
-    name: "One Piece Strawhat Tee",
-    price: 899,
-    image: "anime.jpg",
-    category: "Anime"
-  },
-   {
-    id: "anime-3",
-    name: "LEVENDOR FRONT men black",
-    price: 899,
-    image: "LEVENDOR FRONT men black.jpg",
-    category: "Anime"
-  },
-   {
-    id: "anime-4",
-    name: "LEVENDOR FRONT men white",
-    price: 899,
-    image: "LEVENDOR FRONT men white.jpg",
-    category: "Anime"
-  },
-   {
-    id: "anime-5",
-    name: "LEVENDOR FRONT red",
-    price: 899,
-    image: "LEVENDOR FRONT red.jpg",
-    category: "Anime"
-  },
-   {
-    id: "anime-6",
-    name: "BLACK FRONT red",
-    price: 899,
-    image: "BLACK FRONT red.jpg",
-    category: "Anime"
-  },
-   {
-    id: "anime-7",
-    name: "BLACK FRONT red white",
-    price: 899,
-    image: "BLACK FRONT red white.jpg",
-    category: "Anime"
-  },
-   {
-    id: "anime-8",
-    name: "black front men red",
-    price: 899,
-    image: "black front men red.jpg",
-    category: "Anime"
+    galleryImages: {
+ Black: [
+   "/Sanskari-499/SANSKARI FRONT.jpg",
+      "/Sanskari-499/SANSKARI BACK.jpg",
+    ] ,
+  White:[
+       "/Sanskari-499/SANSKARI BACK WHITE.jpg",
+       "/Sanskari-499/SANSKARI FRONT WHITE.jpg"
+  ],
+   Red:[
+       "/Sanskari-499/SANSKARI red.jpg"
+      
+  ]
+
   }
    
+  },
+    {
+    id: "2",
+    name: "Divine Egde Tee",
+    price: 399,
+    category: "Men",
+    colors: ["Black", "White" , "Red", "Purple" , "Blue" , "Peach" , "Yellow"],
+    image:  "/DIVINE-399/black front men white.jpg", 
+    colorImages: {
+      Black: "/DIVINE-399/black front men white.jpg",
+      White: "/DIVINE-399/white front men black.jpg",
+      Red:   "/DIVINE-399/red front black.jpg",
+      Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+      Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
+      Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
+
+ Yellow:  "/DIVINE-399/SANSKARI red.jpg" ,
+    },
+    galleryImages: {
+ Black: [
+      "/DIVINE-399/black front men white.jpg",
+     "/DIVINE-399/BLACK FRONT white.jpg",
+    ] ,
+  White:[
+       "/DIVINE-399//white front men black.jpg",
+       "/DIVINE-399/WHITE FRONT black.jpg"
+  ],
+   Red:[
+       "/DIVINE-399/red front black.jpg",
+      "/DIVINE-399/RED FRONT men black.jpg",
+  ],
+   Purple:[
+    "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+   "/DIVINE-399/LEVENDOR FRONT black.jpg",
+  ],
+  Blue:[
+    "/DIVINE-399/SKY BLUE FRONT black.jpg",
+        "/DIVINE-399/SKY BLUE FRONT black.jpg",
+  ],
+   Peach:[
+       "/DIVINE-399/WHEAT FRONT black.jpg",
+      "/DIVINE-399/WHEAT FRONT men black.jpg",
+  ],
+   Yellow:[
+       "/DIVINE-399/YELLOW FRONT men black.jpg",
+      "/DIVINE-399/YELLOW FRONT black.jpg",
+  ],
+
+  }
+   
+  },
+ 
+  {
+    id: "3",
+    name: "Blade of Oblivion Tee",
+    price: 699,
+    category: "Men",
+    colors: ["Black"],
+    image:  "/black-699/Front.jpg", 
+    colorImages: {
+      Black: "/black-699/Front.jpg",
+  
+    },
+    galleryImages: {
+ Black: [
+   "/black-699/Front.jpg",
+      "/black-699/back.jpg",
+      "/black-699/black front men black.jpg",
+      "/black-699/black back men black.jpg",
+      
+    ]  }
+   
+  },
+    {
+    id: "5",
+    name: "Cool Sanskari T-shirt",
+    price: 499,
+    category: "Men",
+    colors: ["White", "Black" , "Red"],
+    image:  "/Sanskari-499/SANSKARI FRONT WHITE.jpg", 
+    colorImages: {
+     
+      White: "/Sanskari-499/SANSKARI FRONT WHITE.jpg",
+       Black: "/Sanskari-499/SANSKARI BACK.jpg",
+      Red:  "/Sanskari-499/SANSKARI red.jpg"   
+
+    },
+    galleryImages: {
+       White:[
+               "/Sanskari-499/SANSKARI FRONT WHITE.jpg",
+       "/Sanskari-499/SANSKARI BACK WHITE.jpg",
+  ],
+ Black: [
+      "/Sanskari-499/SANSKARI BACK.jpg",
+     "/Sanskari-499/SANSKARI FRONT.jpg",
+    ] ,
+ 
+   Red:[
+       "/Sanskari-499/SANSKARI red.jpg"
+      
+  ]
+
+  }},
+      {
+    id: "6",
+    name: "Divine Egde Tee",
+    price: 399,
+    category: "Men",
+    colors: ["White", "Black" , "Red", "Purple" , "Blue" , "Peach" , "Yellow"],
+    image:  "/DIVINE-399/white front men black.jpg", 
+    colorImages: {
+      Black: "/DIVINE-399/black front men white.jpg",
+      White: "/DIVINE-399/white front men black.jpg",
+      Red:   "/DIVINE-399/red front black.jpg",
+      Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+      Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
+      Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
+
+ Yellow:  "/DIVINE-399/SANSKARI red.jpg" ,
+    },
+    galleryImages: {
+ Black: [
+      "/DIVINE-399/black front men white.jpg",
+     "/DIVINE-399/BLACK FRONT white.jpg",
+    ] ,
+  White:[
+       "/DIVINE-399//white front men black.jpg",
+       "/DIVINE-399/WHITE FRONT black.jpg"
+  ],
+   Red:[
+       "/DIVINE-399/red front black.jpg",
+      "/DIVINE-399/RED FRONT men black.jpg",
+  ],
+   Purple:[
+    "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+   "/DIVINE-399/LEVENDOR FRONT black.jpg",
+  ],
+  Blue:[
+    "/DIVINE-399/SKY BLUE FRONT black.jpg",
+        "/DIVINE-399/SKY BLUE FRONT black.jpg",
+  ],
+   Peach:[
+       "/DIVINE-399/WHEAT FRONT black.jpg",
+      "/DIVINE-399/WHEAT FRONT men black.jpg",
+  ],
+   Yellow:[
+       "/DIVINE-399/YELLOW FRONT men black.jpg",
+      "/DIVINE-399/YELLOW FRONT black.jpg",
+  ],
+
+  }
+   
+  },
+      {
+    id: "7",
+    name: "Divine Egde Tee",
+    price: 399,
+    category: "Men",
+    colors: ["Red", "White" , "Black", "Purple" , "Blue" , "Peach" , "Yellow"],
+    image: "/DIVINE-399/red front black.jpg",
+    colorImages: {
+      Black: "/DIVINE-399/black front men white.jpg",
+      White: "/DIVINE-399/white front men black.jpg",
+      Red:   "/DIVINE-399/red front black.jpg",
+      Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+      Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
+      Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
+
+ Yellow:  "/DIVINE-399/SANSKARI red.jpg" ,
+    },
+    galleryImages: {
+ Black: [
+      "/DIVINE-399/black front men white.jpg",
+     "/DIVINE-399/BLACK FRONT white.jpg",
+    ] ,
+  White:[
+       "/DIVINE-399//white front men black.jpg",
+       "/DIVINE-399/WHITE FRONT black.jpg"
+  ],
+   Red:[
+       "/DIVINE-399/red front black.jpg",
+      "/DIVINE-399/RED FRONT men black.jpg",
+  ],
+   Purple:[
+    "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+   "/DIVINE-399/LEVENDOR FRONT black.jpg",
+  ],
+  Blue:[
+    "/DIVINE-399/SKY BLUE FRONT black.jpg",
+        "/DIVINE-399/SKY BLUE FRONT black.jpg",
+  ],
+   Peach:[
+       "/DIVINE-399/WHEAT FRONT black.jpg",
+      "/DIVINE-399/WHEAT FRONT men black.jpg",
+  ],
+   Yellow:[
+       "/DIVINE-399/YELLOW FRONT men black.jpg",
+      "/DIVINE-399/YELLOW FRONT black.jpg",
+  ],
+
+  }
+   
+  },
+  
+      {
+    id: "8",
+    name: "Divine Egde Tee",
+    price: 399,
+    category: "Men",
+    colors: ["Purple", "White" , "Red", "Black" , "Blue" , "Peach" , "Yellow"],
+    image:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+    colorImages: {
+      Black: "/DIVINE-399/black front men white.jpg",
+      White: "/DIVINE-399/white front men black.jpg",
+      Red:   "/DIVINE-399/red front black.jpg",
+      Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+      Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
+      Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
+
+ Yellow:  "/DIVINE-399/SANSKARI red.jpg" ,
+    },
+    galleryImages: {
+ Black: [
+      "/DIVINE-399/black front men white.jpg",
+     "/DIVINE-399/BLACK FRONT white.jpg",
+    ] ,
+  White:[
+       "/DIVINE-399//white front men black.jpg",
+       "/DIVINE-399/WHITE FRONT black.jpg"
+  ],
+   Red:[
+       "/DIVINE-399/red front black.jpg",
+      "/DIVINE-399/RED FRONT men black.jpg",
+  ],
+   Purple:[
+    "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+   "/DIVINE-399/LEVENDOR FRONT black.jpg",
+  ],
+  Blue:[
+    "/DIVINE-399/SKY BLUE FRONT black.jpg",
+        "/DIVINE-399/SKY BLUE FRONT black.jpg",
+  ],
+   Peach:[
+       "/DIVINE-399/WHEAT FRONT black.jpg",
+      "/DIVINE-399/WHEAT FRONT men black.jpg",
+  ],
+   Yellow:[
+       "/DIVINE-399/YELLOW FRONT men black.jpg",
+      "/DIVINE-399/YELLOW FRONT black.jpg",
+  ],
+
+  }
+   
+  },
+   
+      {
+    id: "9",
+    name: "Divine Egde Tee",
+    price: 399,
+    category: "Men",
+    colors: ["Blue", "White" , "Red", "Purple" , "Black" , "Peach" , "Yellow"],
+    image:      "/DIVINE-399/SKY BLUE FRONT black.jpg",
+
+    colorImages: {
+      Black: "/DIVINE-399/black front men white.jpg",
+      White: "/DIVINE-399/white front men black.jpg",
+      Red:   "/DIVINE-399/red front black.jpg",
+      Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+      Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
+      Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
+
+ Yellow:  "/DIVINE-399/SANSKARI red.jpg" ,
+    },
+    galleryImages: {
+ Black: [
+      "/DIVINE-399/black front men white.jpg",
+     "/DIVINE-399/BLACK FRONT white.jpg",
+    ] ,
+  White:[
+       "/DIVINE-399//white front men black.jpg",
+       "/DIVINE-399/WHITE FRONT black.jpg"
+  ],
+   Red:[
+       "/DIVINE-399/red front black.jpg",
+      "/DIVINE-399/RED FRONT men black.jpg",
+  ],
+   Purple:[
+    "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+   "/DIVINE-399/LEVENDOR FRONT black.jpg",
+  ],
+  Blue:[
+    "/DIVINE-399/SKY BLUE FRONT black.jpg",
+        "/DIVINE-399/SKY BLUE FRONT black.jpg",
+  ],
+   Peach:[
+       "/DIVINE-399/WHEAT FRONT black.jpg",
+      "/DIVINE-399/WHEAT FRONT men black.jpg",
+  ],
+   Yellow:[
+       "/DIVINE-399/YELLOW FRONT men black.jpg",
+      "/DIVINE-399/YELLOW FRONT black.jpg",
+  ],
+
+  }
+   
+  },
+   
+      {
+    id: "10",
+    name: "Divine Egde Tee",
+    price: 399,
+    category: "Men",
+    colors: ["Yellow", "White" , "Red", "Purple" , "Blue" , "Peach" , "Black"],
+    image:         "/DIVINE-399/YELLOW FRONT men black.jpg",
+
+
+
+    colorImages: {
+      Black: "/DIVINE-399/black front men white.jpg",
+      White: "/DIVINE-399/white front men black.jpg",
+      Red:   "/DIVINE-399/red front black.jpg",
+      Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+      Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
+      Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
+
+ Yellow:  "/DIVINE-399/SANSKARI red.jpg" ,
+    },
+    galleryImages: {
+ Black: [
+      "/DIVINE-399/black front men white.jpg",
+     "/DIVINE-399/BLACK FRONT white.jpg",
+    ] ,
+  White:[
+       "/DIVINE-399//white front men black.jpg",
+       "/DIVINE-399/WHITE FRONT black.jpg"
+  ],
+   Red:[
+       "/DIVINE-399/red front black.jpg",
+      "/DIVINE-399/RED FRONT men black.jpg",
+  ],
+   Purple:[
+    "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+   "/DIVINE-399/LEVENDOR FRONT black.jpg",
+  ],
+  Blue:[
+    "/DIVINE-399/SKY BLUE FRONT black.jpg",
+        "/DIVINE-399/SKY BLUE FRONT black.jpg",
+  ],
+   Peach:[
+       "/DIVINE-399/WHEAT FRONT black.jpg",
+      "/DIVINE-399/WHEAT FRONT men black.jpg",
+  ],
+   Yellow:[
+       "/DIVINE-399/YELLOW FRONT men black.jpg",
+      "/DIVINE-399/YELLOW FRONT black.jpg",
+  ],
+
+  }
+   
+  },
+
+      {
+    id: "11",
+    name: "Divine Egde Tee",
+    price: 399,
+    category: "Men",
+    colors: ["Peach", "White" , "Red", "Purple" , "Blue" , "Yellow" , "Black"],
+    image:         "/DIVINE-399/WHEAT FRONT men black.jpg",
+
+
+
+    colorImages: {
+      Black: "/DIVINE-399/black front men white.jpg",
+      White: "/DIVINE-399/white front men black.jpg",
+      Red:   "/DIVINE-399/red front black.jpg",
+      Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+      Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
+      Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
+
+ Yellow:  "/DIVINE-399/SANSKARI red.jpg" ,
+    },
+    galleryImages: {
+ Black: [
+      "/DIVINE-399/black front men white.jpg",
+     "/DIVINE-399/BLACK FRONT white.jpg",
+    ] ,
+  White:[
+       "/DIVINE-399//white front men black.jpg",
+       "/DIVINE-399/WHITE FRONT black.jpg"
+  ],
+   Red:[
+       "/DIVINE-399/red front black.jpg",
+      "/DIVINE-399/RED FRONT men black.jpg",
+  ],
+   Purple:[
+    "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+   "/DIVINE-399/LEVENDOR FRONT black.jpg",
+  ],
+  Blue:[
+    "/DIVINE-399/SKY BLUE FRONT black.jpg",
+        "/DIVINE-399/SKY BLUE FRONT black.jpg",
+  ],
+   Peach:[
+       "/DIVINE-399/WHEAT FRONT black.jpg",
+      "/DIVINE-399/WHEAT FRONT men black.jpg",
+  ],
+   Yellow:[
+       "/DIVINE-399/YELLOW FRONT men black.jpg",
+      "/DIVINE-399/YELLOW FRONT black.jpg",
+  ],
+
+  }
+   
+  },
 ];
 
 export default tshirts;
