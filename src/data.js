@@ -250,6 +250,27 @@ const tshirts = [
    
   },
    
+     {
+    id: "16",
+    name: "Custom Skull TEE",
+    price: 599,
+    category: "Men",
+    colors: [ "Black"],
+    image:     "/Skull-599/FRONT.jpg",
+
+
+    colorImages: {
+      Black:  "/Skull-599/FRONT.jpg",
+    },
+    galleryImages: {
+ Black: [
+      "/Skull-599/FRONT.jpg",
+       "/Skull-599/BACK (2).jpg",
+    ] ,
+  
+  }
+   
+  },
       {
     id: "10",
     name: "Divine Egde Tee",
@@ -410,6 +431,172 @@ const tshirts = [
   }
    
   },
+ {
+    id: "28",
+   name: "madafake TEE",
+   price: 399,
+    category: "Men",
+    colors: ["Blue", "Peach" , "White", "Purple" , "Red" , "Black" , "Yellow"],
+    image:     "/Madafake-399/SKY BLUE FRONT white.jpg",
+
+
+
+
+    colorImages: {
+      Black:  "/Madafake-399/BLACK FRONT madafake.jpg",
+      White: "/Madafake-399/WHITE FRONT black.jpg",
+      Red:   "/Madafake-399/RED FRONT white men.jpg",
+      Purple:  "/Madafake-399/LEVENDOR FRONT men white.jpg",
+      Blue:  "/Madafake-399/SKY BLUE FRONT white.jpg",
+      Peach:  "/Madafake-399/WHEAT FRONT men white.jpg",
+      Yellow:  "/Madafake-399/YELLOW FRONT men white.jpg",
+
+    },
+    galleryImages: {
+ Black: [
+ "/Madafake-399/BLACK FRONT madafake.jpg",
+ "/Madafake-399/black front men white.jpg",
+    ] ,
+  White:[
+"/Madafake-399/WHITE FRONT black.jpg",
+"/Madafake-399/white front men black.jpg",  
+],
+   Red:[
+"/Madafake-399/RED FRONT white men.jpg",
+"/Madafake-399/red front white.jpg", 
+  ],
+   Purple:[ "/Madafake-399/LEVENDOR FRONT men white.jpg",
+  "/Madafake-399/LEVENDOR FRONT white.jpg",
+    ],
+     
+     Blue:[
+"/Madafake-399/SKY BLUE FRONT white.jpg",
+"/Madafake-399/SKY BLUE FRONT white.jpg", 
+],
+   Peach:[
+ "/Madafake-399/WHEAT FRONT men white.jpg",
+ "/Madafake-399/WHEAT FRONT white.jpg", 
+ ],
+   Yellow:[
+ "/Madafake-399/YELLOW FRONT men white.jpg",
+ "/Madafake-399/YELLOW FRONT white.jpg",
+ ],
+
+  }
+   
+  },
+  
+
+
+
+ {
+    id: "27",
+   name: "LA Familia TEE",
+   price: 399,
+    category: "Men",
+    colors: ["Black", "Peach" , "White", "Purple" , "Red" , "Blue" , "Yellow"],
+    image:     "/Familia-399/la family BLACK FRONT.jpg",
+
+
+
+
+    colorImages: {
+      Black:  "/Familia-399/la family BLACK FRONT.jpg",
+      White: "/Familia-399/la family WHITE FRONT.jpg",
+      Red:   "/Familia-399/la family red front.jpg",
+      Purple:  "/Familia-399/la family LEVENDOR FRONT.jpg",
+      Blue:  "/Familia-399/la family SKY BLUE FRONT.jpg",
+      Peach:  "/Familia-399/la family WHEAT FRONT.jpg",
+      Yellow:  "/Familia-399/la family YELLOW FRONT.jpg",
+
+    },
+    galleryImages: {
+ Black: [
+ "/Familia-399/la family BLACK FRONT.jpg",
+ "/Familia-399/la family men black front.jpg",    ] ,
+  White:[
+ "/Familia-399/la family WHITE FRONT.jpg",
+  "/Familia-399/la family men white front.jpg",
+  ],
+   Red:[
+ "/Familia-399/la family red front.jpg",
+ "/Familia-399/la family men RED FRONT.jpg",
+ 
+  ],
+   Purple:[
+      "/Familia-399/la family LEVENDOR FRONT.jpg",
+ "/Familia-399/la family men LEVENDOR FRONT.jpg",     ],
+     
+     Blue:[
+  "/Familia-399/la family SKY BLUE FRONT.jpg",
+"/Familia-399/la family SKY BLUE FRONT.jpg",  ],
+   Peach:[
+  "/Familia-399/la family WHEAT FRONT.jpg",
+  "/Familia-399/la family men WHEAT FRONT.jpg",  ],
+   Yellow:[
+ "/Familia-399/la family YELLOW FRONT.jpg",
+ "/Familia-399/la family men YELLOW FRONT.jpg",  ],
+
+  }
+   
+  },
+  
+
+
+
+ {
+    id: "26",
+   name: "LA Familia TEE",
+   price: 399,
+    category: "Men",
+    colors: ["Black", "Peach" , "White", "Purple" , "Red" , "Blue" , "Yellow"],
+    image:     "/Familia-399/la family BLACK FRONT.jpg",
+
+
+
+
+    colorImages: {
+      Black:  "/Familia-399/la family BLACK FRONT.jpg",
+      White: "/Familia-399/la family WHITE FRONT.jpg",
+      Red:   "/Familia-399/la family red front.jpg",
+      Purple:  "/Familia-399/la family LEVENDOR FRONT.jpg",
+      Blue:  "/Familia-399/la family SKY BLUE FRONT.jpg",
+      Peach:  "/Familia-399/la family WHEAT FRONT.jpg",
+      Yellow:  "/Familia-399/la family YELLOW FRONT.jpg",
+
+    },
+    galleryImages: {
+ Black: [
+ "/Familia-399/la family BLACK FRONT.jpg",
+ "/Familia-399/la family men black front.jpg",    ] ,
+  White:[
+ "/Familia-399/la family WHITE FRONT.jpg",
+  "/Familia-399/la family men white front.jpg",
+  ],
+   Red:[
+ "/Familia-399/la family red front.jpg",
+ "/Familia-399/la family men RED FRONT.jpg",
+ 
+  ],
+   Purple:[
+      "/Familia-399/la family LEVENDOR FRONT.jpg",
+ "/Familia-399/la family men LEVENDOR FRONT.jpg",     ],
+     
+     Blue:[
+  "/Familia-399/la family SKY BLUE FRONT.jpg",
+"/Familia-399/la family SKY BLUE FRONT.jpg",  ],
+   Peach:[
+  "/Familia-399/la family WHEAT FRONT.jpg",
+  "/Familia-399/la family men WHEAT FRONT.jpg",  ],
+   Yellow:[
+ "/Familia-399/la family YELLOW FRONT.jpg",
+ "/Familia-399/la family men YELLOW FRONT.jpg",  ],
+
+  }
+   
+  },
+ 
+  
    {
     id: "18",
     name: "Driven by Discipline TEE",
@@ -567,6 +754,88 @@ const tshirts = [
   }
    
   },
+
+    {
+    id: "25",
+    name: "Karma Ying-Yang TEE",
+    price: 459,
+    category: "Men",
+    colors: ["White",  "Black" ],
+    image:     "/Yang-459/karm front WHITE.jpg",
+
+    colorImages: {
+      Black:   "/Yang-459/karm front.jpg",
+      White: "/Yang-459/karm front WHITE.jpg",
+   
+
+    },
+    galleryImages: {
+ Black: [
+   
+ "/Yang-459/karm front.jpg",
+ "/Yang-459/karm back.jpg",
+ "/Yang-459/karm double.jpg",
+    ] ,
+  White:[
+"/Yang-459/karm front WHITE.jpg",
+"/Yang-459/karm BACK WHITE.jpg",
+"/Yang-459/karm white double.jpg",
+        
+  ],
+
+  
+
+  }
+   
+  },
+      {
+    id: "17",
+    name: "Insured By Mafia Tee",
+    price: 399,
+    category: "Men",
+    colors: ["Purple", "White" , "Black", "Red" , "Blue" , "Peach" , "Yellow"],
+    image: "/Mafia-399/mafia LEVENDOR FRONT.jpg",
+    colorImages: {
+      Black: "/Mafia-399/mafia BLACK FRONT.jpg",
+      White: "/Mafia-399/mafia WHITE FRONT.jpg",
+      Red:   "/Mafia-399/mafia red front.jpg",
+      Purple:  "/Mafia-399/mafia LEVENDOR FRONT.jpg",
+      Blue:  "/Mafia-399/mafia SKY BLUE FRONT.jpg",
+      Peach:  "/Mafia-399/mafia  WHEAT FRONT.jpg",
+ Yellow:        "/Mafia-399/mafia YELLOW FRONT.jpg",
+
+    },
+    galleryImages: {
+ Black: [
+"/Mafia-399/mafia BLACK FRONT.jpg",
+"/Mafia-399/mafia men black front.jpg",
+    ] ,
+  White:[
+"/Mafia-399/mafia WHITE FRONT.jpg",
+"/Mafia-399/mafia men white front.jpg",  ],
+   Red:[
+"/Mafia-399/mafia red front.jpg",    
+"/Mafia-399/mafia men RED FRONT.jpg",
+  ],
+   Purple:[
+     "/Mafia-399/mafia men LEVENDOR FRONT.jpg",
+    "/Mafia-399/mafia LEVENDOR FRONT.jpg",
+  ],
+  Blue:[
+"/Mafia-399/mafia SKY BLUE FRONT.jpg",
+"/Mafia-399/mafia SKY BLUE FRONT.jpg",  ],
+   Peach:[
+      "/Mafia-399/mafia  WHEAT FRONT.jpg",
+"/Mafia-399/mafia men WHEAT FRONT.jpg",  ],
+   Yellow:[
+ "/Mafia-399/mafia YELLOW FRONT.jpg",
+ 
+ "/Mafia-399/mafia YELLOW FRONT.jpg",  ],
+
+  }
+   
+  },
+
     {
     id: "13",
     name: "DO IT Anyway TEE",
