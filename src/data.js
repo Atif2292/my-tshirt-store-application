@@ -887,6 +887,82 @@ const tshirts = [
   }
    
   },
+           {
+    id: "30",
+    name: "Master the Hinokami Kagura TEE",
+    price: 799,
+    category: "Men",
+    colors: ["White", "Wheat" , "Purple" , "Blue" , "Yellow" , "Black"],
+    image:  "/Kagura-799/WHITE BACK black.jpg",
+
+
+
+    colorImages: {
+      Black: "/Kagura-799/BLACK FRONT black.jpg",
+      White: "/Kagura-799/WHITE FRONT black.jpg",
+      Purple:  "/Kagura-799/LEVENDOR FRONT black.jpg",
+
+      Blue: "/Kagura-799/SKY BLUE FRONT black.jpg",
+      Wheat:  "/Kagura-799/WHEAT FRONT black.jpg",
+      Yellow:  "/Kagura-799/YELLOW FRONT white.jpg",
+
+    },
+    galleryImages: {
+ Black: [
+"/Kagura-799/BLACK FRONT black.jpg",
+     "/Kagura-799/BLACK BACK mlack.jpg",
+    "/Kagura-799/black back men black.jpg",
+    "/Kagura-799/black front white.jpg",
+
+      ] ,
+  White:[
+"/Kagura-799/WHITE FRONT black.jpg",
+"/Kagura-799/WHITE BACK black.jpg", 
+"/Kagura-799/white back men black.jpg",
+"/Kagura-799/white front men black.jpg",
+
+ ],
+  
+   Purple:[
+   "/Kagura-799/LEVENDOR FRONT black.jpg",
+      "/Kagura-799/LEVENDOR FRONT men black.jpg",
+         "/Kagura-799/LEVENDOR BACK men white.jpg",
+                  "/Kagura-799/LEVENDOR BACK white.jpg",
+
+
+
+   ],
+  Blue:[
+"/Kagura-799/SKY BLUE FRONT black.jpg",
+"/Kagura-799/SKY BLUE BACK black.jpg",
+"/Kagura-799/SKY BLUE BACK white.jpg",
+
+
+"/Kagura-799/SKY BLUE FRONT white.jpg",
+
+],
+   Wheat:[
+    "/Kagura-799/WHEAT FRONT black.jpg",
+        "/Kagura-799/WHEAT FRONT men black.jpg",
+            "/Kagura-799/WHEAT FRONT white.jpg",
+                "/Kagura-799/WHEAT FRONT white men.jpg",
+
+
+
+  ],
+   Yellow:[
+     "/Kagura-799/YELLOW FRONT white.jpg",
+          "/Kagura-799/YELLOW BACK men white.jpg",
+                    "/Kagura-799/YELLOW BACK white.jpg",
+                              "/Kagura-799/YELLOW FRONT men white.jpg",
+
+
+
+  ],
+
+  }
+   
+  },
       {
     id: "8",
     name: "Divine Egde Tee",
@@ -1047,110 +1123,110 @@ const tshirts = [
    
 //   },
   
-  {
-    id: "17",
-    name: "DO IT Anyway TEE",
-    price: 399,
-    category: "Men",
-    colors: ["Black", "Peach" , "White", "Purple" , "Red" , "Blue" , "Yelllow"],
-    image:     "/Anyways-399/black front men red white.jpg",
+//   {
+//     id: "17",
+//     name: "DO IT Anyway TEE",
+//     price: 399,
+//     category: "Men",
+//     colors: ["Black", "Peach" , "White", "Purple" , "Red" , "Blue" , "Yelllow"],
+//     image:     "/Anyways-399/black front men red white.jpg",
 
 
 
 
-    colorImages: {
-      Black: "/Anyways-399/BLACK FRONT DONT QUITE.jpg",
-      White: "/Anyways-399/WHITE FRONT red black.jpg",
-      Red:   "/Anyways-399/RED FRONT men black white.jpg",
-      Purple:  "/Anyways-399/LEVENDOR FRONT men red black.jpg",
-      Blue:  "/Anyways-399/SKY BLUE FRONT red black.jpg",
-      Peach:  "/Anyways-399/WHEAT FRONT red black.jpg",
-      Yellow:  "/Anyways-399/YELLOW FRONT red black.jpg",
+//     colorImages: {
+//       Black: "/Anyways-399/BLACK FRONT DONT QUITE.jpg",
+//       White: "/Anyways-399/WHITE FRONT red black.jpg",
+//       Red:   "/Anyways-399/RED FRONT men black white.jpg",
+//       Purple:  "/Anyways-399/LEVENDOR FRONT men red black.jpg",
+//       Blue:  "/Anyways-399/SKY BLUE FRONT red black.jpg",
+//       Peach:  "/Anyways-399/WHEAT FRONT red black.jpg",
+//       Yellow:  "/Anyways-399/YELLOW FRONT red black.jpg",
 
-    },
-    galleryImages: {
- Black: [
-      "/Anyways-399/black front men red white.jpg",
-     "/Anyways-399/BLACK FRONT DONT QUITE.jpg",
-    ] ,
-  White:[
-       "/Anyways-399/WHITE FRONT red black.jpg",
-       "/Anyways-399/white front men red black.jpg"
-  ],
-   Red:[
-       "/Anyways-399/RED FRONT men black white.jpg",
-      "/Anyways-399/red front black white.jpg",
-  ],
-   Purple:[
-    "/Anyways-399/LEVENDOR FRONT men red black.jpg",
- "/Anyways-399/LEVENDOR FRONT men red white.jpg",  ],
-  Blue:[
-    "/Anyways-399/SKY BLUE FRONT red black.jpg",
-        "/Anyways-399/SKY BLUE FRONT red white.jpg",
-  ],
-   Peach:[
-     "/Anyways-399/WHEAT FRONT red black.jpg",
-      "/Anyways-399/WHEAT FRONT red white.jpg",
-  ],
-   Yellow:[
-       "/Anyways-399/YELLOW FRONT red black.jpg",
-  ],
+//     },
+//     galleryImages: {
+//  Black: [
+//       "/Anyways-399/black front men red white.jpg",
+//      "/Anyways-399/BLACK FRONT DONT QUITE.jpg",
+//     ] ,
+//   White:[
+//        "/Anyways-399/WHITE FRONT red black.jpg",
+//        "/Anyways-399/white front men red black.jpg"
+//   ],
+//    Red:[
+//        "/Anyways-399/RED FRONT men black white.jpg",
+//       "/Anyways-399/red front black white.jpg",
+//   ],
+//    Purple:[
+//     "/Anyways-399/LEVENDOR FRONT men red black.jpg",
+//  "/Anyways-399/LEVENDOR FRONT men red white.jpg",  ],
+//   Blue:[
+//     "/Anyways-399/SKY BLUE FRONT red black.jpg",
+//         "/Anyways-399/SKY BLUE FRONT red white.jpg",
+//   ],
+//    Peach:[
+//      "/Anyways-399/WHEAT FRONT red black.jpg",
+//       "/Anyways-399/WHEAT FRONT red white.jpg",
+//   ],
+//    Yellow:[
+//        "/Anyways-399/YELLOW FRONT red black.jpg",
+//   ],
 
-  }
+//   }
    
-  },
+//   },
   
  
  
-     {
-    id: "2",
-    name: "Divine Egde Tee",
-    price: 399,
-    category: "Men",
-    colors: ["Black", "White" , "Red", "Purple" , "Blue" , "Peach" , "Yellow"],
-    image:  "/DIVINE-399/black front men white.jpg", 
-    colorImages: {
-      Black: "/DIVINE-399/black front men white.jpg",
-      White: "/DIVINE-399/white front men black.jpg",
-      Red:   "/DIVINE-399/red front black.jpg",
-      Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
-      Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
-      Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
- Yellow:        "/DIVINE-399/YELLOW FRONT men black.jpg",
-    },
-    galleryImages: {
- Black: [
-      "/DIVINE-399/black front men white.jpg",
-     "/DIVINE-399/BLACK FRONT white.jpg",
-    ] ,
-  White:[
-       "/DIVINE-399//white front men black.jpg",
-       "/DIVINE-399/WHITE FRONT black.jpg"
-  ],
-   Red:[
-       "/DIVINE-399/red front black.jpg",
-      "/DIVINE-399/RED FRONT men black.jpg",
-  ],
-   Purple:[
-    "/DIVINE-399/LEVENDOR FRONT men black.jpg",
-   "/DIVINE-399/LEVENDOR FRONT black.jpg",
-  ],
-  Blue:[
-    "/DIVINE-399/SKY BLUE FRONT black.jpg",
-        "/DIVINE-399/SKY BLUE FRONT black.jpg",
-  ],
-   Peach:[
-       "/DIVINE-399/WHEAT FRONT black.jpg",
-      "/DIVINE-399/WHEAT FRONT men black.jpg",
-  ],
-   Yellow:[
-       "/DIVINE-399/YELLOW FRONT men black.jpg",
-      "/DIVINE-399/YELLOW FRONT black.jpg",
-  ],
+//      {
+//     id: "2",
+//     name: "Divine Egde Tee",
+//     price: 399,
+//     category: "Men",
+//     colors: ["Black", "White" , "Red", "Purple" , "Blue" , "Peach" , "Yellow"],
+//     image:  "/DIVINE-399/black front men white.jpg", 
+//     colorImages: {
+//       Black: "/DIVINE-399/black front men white.jpg",
+//       White: "/DIVINE-399/white front men black.jpg",
+//       Red:   "/DIVINE-399/red front black.jpg",
+//       Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+//       Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
+//       Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
+//  Yellow:        "/DIVINE-399/YELLOW FRONT men black.jpg",
+//     },
+//     galleryImages: {
+//  Black: [
+//       "/DIVINE-399/black front men white.jpg",
+//      "/DIVINE-399/BLACK FRONT white.jpg",
+//     ] ,
+//   White:[
+//        "/DIVINE-399//white front men black.jpg",
+//        "/DIVINE-399/WHITE FRONT black.jpg"
+//   ],
+//    Red:[
+//        "/DIVINE-399/red front black.jpg",
+//       "/DIVINE-399/RED FRONT men black.jpg",
+//   ],
+//    Purple:[
+//     "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+//    "/DIVINE-399/LEVENDOR FRONT black.jpg",
+//   ],
+//   Blue:[
+//     "/DIVINE-399/SKY BLUE FRONT black.jpg",
+//         "/DIVINE-399/SKY BLUE FRONT black.jpg",
+//   ],
+//    Peach:[
+//        "/DIVINE-399/WHEAT FRONT black.jpg",
+//       "/DIVINE-399/WHEAT FRONT men black.jpg",
+//   ],
+//    Yellow:[
+//        "/DIVINE-399/YELLOW FRONT men black.jpg",
+//       "/DIVINE-399/YELLOW FRONT black.jpg",
+//   ],
 
-  }
+//   }
    
-  },
+//   },
    {
     id: "15",
     name: "DO IT Anyway TEE",
