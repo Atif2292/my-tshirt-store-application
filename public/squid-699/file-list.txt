@@ -1,0 +1,32 @@
+.
+./design 2
+./design 2/WHITE FRONT WHITE.jpg
+./design 2/BLACK BACK BLACK.jpg
+./design 2/WHITE BACK WHITE.jpg
+./design 2/BLACK FRONT BLACK.jpg
+./design men 1
+./design men 1/white front design white.jpg
+./design men 1/white front  design.jpg
+./design men 1/black back WHITE.jpg
+./design men 1/black front WHITE FRONT.jpg
+./design men 2
+./design men 2/black front WHITE DESIGN.jpg
+./design men 2/white back design.jpg
+./design men 2/black back 2 DESIGN.jpg
+./design men 2/white front white design.jpg
+./design girl 2
+./design girl 2/GIRL WHITE  FRONT squid white.jpg
+./design girl 2/GIRL WHITE  BACK white.jpg
+./design girl 2/GIRL black   front squid.jpg
+./design girl 2/GIRL BLACK BACK squid.jpg
+./file-list.txt
+./design 1
+./design 1/WHITE front back.jpg
+./design 1/WHITE BACK back.jpg
+./design 1/BLACK BACK squid.jpg
+./design 1/BLACK FRONT squid.jpg
+./design girl 1
+./design girl 1/GIRL BLACK BACK back.jpg
+./design girl 1/GIRL black   black  front.jpg
+./design girl 1/GIRL WHITE  BACK squid.jpg
+./design girl 1/GIRL WHITE  FRONT white.jpg

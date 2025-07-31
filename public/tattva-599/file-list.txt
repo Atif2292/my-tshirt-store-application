@@ -1,0 +1,46 @@
+.
+./LEVENDOR FRONT black.jpg
+./white back men black.jpg
+./WHEAT FRONT men white.jpg
+./LEVENDOR FRONT white.jpg
+./YELLOW BACK white.jpg
+./RED BACK black men.jpg
+./LEVENDOR FRONT men white.jpg
+./RED BACK white men.jpg
+./WHEAT BACK men white.jpg
+./YELLOW FRONT men black.jpg
+./LEVENDOR FRONT men black.jpg
+./LEVENDOR BACK men white.jpg
+./LEVENDOR BACK men black.jpg
+./WHEAT  BACK black.jpg
+./WHITE BACK black.jpg
+./BLACK BACK white.jpg
+./SKY BLUE BACK white.jpg
+./red front black.jpg
+./YELLOW FRONT black.jpg
+./white front men black.jpg
+./SKY BLUE FRONT black.jpg
+./SKY BLUE FRONT white.jpg
+./YELLOW FRONT white.jpg
+./BLACK FRONT white.jpg
+./WHEAT  BACK white.jpg
+./RED FRONT men black.jpg
+./YELLOW BACK men black.jpg
+./black front men white.jpg
+./LEVENDOR BACK white.jpg
+./YELLOW FRONT men white.jpg
+./LEVENDOR BACK black.jpg
+./YELLOW BACK men white.jpg
+./WHEAT FRONT white.jpg
+./black back men white.jpg
+./WHEAT FRONT black.jpg
+./YELLOW BACK black.jpg
+./RED FRONT men white.jpg
+./SKY BLUE BACK black.jpg
+./WHITE FRONT black.jpg
+./file-list.txt
+./red front white.jpg
+./red back black.jpg
+./WHEAT FRONT men black.jpg
+./WHEAT BACK black.jpg
+./red back white.jpg

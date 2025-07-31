@@ -489,59 +489,7 @@ const tshirts = [
 
 
 
- {
-    id: "27",
-   name: "LA Familia TEE",
-   price: 399,
-    category: "Men",
-    colors: ["Black", "Peach" , "White", "Purple" , "Red" , "Blue" , "Yellow"],
-    image:     "/Familia-399/la family BLACK FRONT.jpg",
-
-
-
-
-    colorImages: {
-      Black:  "/Familia-399/la family BLACK FRONT.jpg",
-      White: "/Familia-399/la family WHITE FRONT.jpg",
-      Red:   "/Familia-399/la family red front.jpg",
-      Purple:  "/Familia-399/la family LEVENDOR FRONT.jpg",
-      Blue:  "/Familia-399/la family SKY BLUE FRONT.jpg",
-      Peach:  "/Familia-399/la family WHEAT FRONT.jpg",
-      Yellow:  "/Familia-399/la family YELLOW FRONT.jpg",
-
-    },
-    galleryImages: {
- Black: [
- "/Familia-399/la family BLACK FRONT.jpg",
- "/Familia-399/la family men black front.jpg",    ] ,
-  White:[
- "/Familia-399/la family WHITE FRONT.jpg",
-  "/Familia-399/la family men white front.jpg",
-  ],
-   Red:[
- "/Familia-399/la family red front.jpg",
- "/Familia-399/la family men RED FRONT.jpg",
  
-  ],
-   Purple:[
-      "/Familia-399/la family LEVENDOR FRONT.jpg",
- "/Familia-399/la family men LEVENDOR FRONT.jpg",     ],
-     
-     Blue:[
-  "/Familia-399/la family SKY BLUE FRONT.jpg",
-"/Familia-399/la family SKY BLUE FRONT.jpg",  ],
-   Peach:[
-  "/Familia-399/la family WHEAT FRONT.jpg",
-  "/Familia-399/la family men WHEAT FRONT.jpg",  ],
-   Yellow:[
- "/Familia-399/la family YELLOW FRONT.jpg",
- "/Familia-399/la family men YELLOW FRONT.jpg",  ],
-
-  }
-   
-  },
-  
-
 
 
  {
@@ -963,57 +911,60 @@ const tshirts = [
   }
    
   },
-      {
-    id: "8",
-    name: "Divine Egde Tee",
-    price: 399,
-    category: "Men",
-    colors: ["Purple", "White" , "Red", "Black" , "Blue" , "Peach" , "Yellow"],
-    image:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
-    colorImages: {
-      Black: "/DIVINE-399/black front men white.jpg",
-      White: "/DIVINE-399/white front men black.jpg",
-      Red:   "/DIVINE-399/red front black.jpg",
-      Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
-      Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
-      Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
-      Yellow:  "/DIVINE-399/YELLOW FRONT men black.jpg",
+        {
+      id: "8",
+      name: "Divine Egde Tee",
+      price: 399,
+      category: "Men",
+      colors: ["Purple", "White" , "Red", "Black" , "Blue" , "Peach" , "Yellow"],
+      image:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+      colorImages: {
+        Black: "/DIVINE-399/black front men white.jpg",
+        White: "/DIVINE-399/white front men black.jpg",
+        Red:   "/DIVINE-399/red front black.jpg",
+        Purple:  "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+        Blue:  "/DIVINE-399/SKY BLUE FRONT black.jpg",
+        Peach:  "/DIVINE-399/WHEAT FRONT black.jpg",
+        Yellow:  "/DIVINE-399/YELLOW FRONT men black.jpg",
 
+      },
+      galleryImages: {
+  Black: [
+        "/DIVINE-399/black front men white.jpg",
+      "/DIVINE-399/BLACK FRONT white.jpg",
+      ] ,
+    White:[
+        "/DIVINE-399//white front men black.jpg",
+        "/DIVINE-399/WHITE FRONT black.jpg"
+    ],
+    Red:[
+        "/DIVINE-399/red front black.jpg",
+        "/DIVINE-399/RED FRONT men black.jpg",
+    ],
+    Purple:[
+      "/DIVINE-399/LEVENDOR FRONT men black.jpg",
+    "/DIVINE-399/LEVENDOR FRONT black.jpg",
+    ],
+    Blue:[
+      "/DIVINE-399/SKY BLUE FRONT black.jpg",
+          "/DIVINE-399/SKY BLUE FRONT black.jpg",
+    ],
+    Peach:[
+        "/DIVINE-399/WHEAT FRONT black.jpg",
+        "/DIVINE-399/WHEAT FRONT men black.jpg",
+    ],
+    Yellow:[
+        "/DIVINE-399/YELLOW FRONT men black.jpg",
+        "/DIVINE-399/YELLOW FRONT black.jpg",
+    ],
+
+    }
+    
     },
-    galleryImages: {
- Black: [
-      "/DIVINE-399/black front men white.jpg",
-     "/DIVINE-399/BLACK FRONT white.jpg",
-    ] ,
-  White:[
-       "/DIVINE-399//white front men black.jpg",
-       "/DIVINE-399/WHITE FRONT black.jpg"
-  ],
-   Red:[
-       "/DIVINE-399/red front black.jpg",
-      "/DIVINE-399/RED FRONT men black.jpg",
-  ],
-   Purple:[
-    "/DIVINE-399/LEVENDOR FRONT men black.jpg",
-   "/DIVINE-399/LEVENDOR FRONT black.jpg",
-  ],
-  Blue:[
-    "/DIVINE-399/SKY BLUE FRONT black.jpg",
-        "/DIVINE-399/SKY BLUE FRONT black.jpg",
-  ],
-   Peach:[
-       "/DIVINE-399/WHEAT FRONT black.jpg",
-      "/DIVINE-399/WHEAT FRONT men black.jpg",
-  ],
-   Yellow:[
-       "/DIVINE-399/YELLOW FRONT men black.jpg",
-      "/DIVINE-399/YELLOW FRONT black.jpg",
-  ],
-
-  }
-   
-  },
  
+
+
+    
 //    {
 //     id: "14",
 //     name: "DO IT Anyway TEE",
@@ -1227,6 +1178,258 @@ const tshirts = [
 //   }
    
 //   },
+
+{
+  "id": "36",
+  "name": "Rise From Within",
+  "price": 399,
+  "category": "Men",
+  "colors": ["Black", "White", "Red", "Purple", "Blue", "Peach", "Yellow"],
+  "image":"/RISE-399/BLACK FRONT red white0.jpg",
+  "colorImages": {
+    "Black": "/RISE-399/BLACK FRONT red white0.jpg",
+    "White": "/RISE-399/WHITE FRONT black.jpg",
+    "Red": "/RISE-399/red front black.jpg",
+    "Purple": "/RISE-399/LEVENDOR FRONT men black.jpg",
+    "Blue": "/RISE-399/SKY BLUE FRONT black.jpg",
+    "Peach": "/RISE-399/WHEAT FRONT black.jpg",
+    "Yellow": "/RISE-399/YELLOW FRONT men black.jpg"
+  },
+  "galleryImages": {
+    "Black": [
+      "/RISE-399/BLACK FRONT red white0.jpg"
+    ],
+    "White": [
+      "/RISE-399/WHITE FRONT black.jpg",
+      "/RISE-399/WHITE FRONT black.jpg"
+    ],
+    "Red": [
+      "/RISE-399/red front black.jpg",
+      "/RISE-399/red front white.jpg",
+      "/RISE-399/RED FRONT men black.jpg",
+      "/RISE-399/RED FRONT men white.jpg"
+    ],
+    "Purple": [
+      "/RISE-399/LEVENDOR FRONT men black.jpg",
+      "/RISE-399/LEVENDOR FRONT white.jpg"
+    ],
+    "Blue": [
+      "/RISE-399/SKY BLUE FRONT black.jpg",
+      "/RISE-399/SKY BLUE FRONT white.jpg"
+    ],
+    "Peach": [
+      "/RISE-399/WHEAT FRONT black.jpg",
+      "/RISE-399/WHEAT FRONT white.jpg",
+      "/RISE-399/WHEAT FRONT men black.jpg"
+    ],
+    "Yellow": [
+      "/RISE-399/YELLOW FRONT men black.jpg",
+      "/RISE-399/YELLOW FRONT black.jpg",
+      "/RISE-399/YELLOW FRONT white.jpg",
+      "/RISE-399/YELLOW FRONT men white.jpg"
+    ]
+  }
+},
+{
+  "id": "38",
+  "name": "Shadow",
+  "price": 499,
+  "category": "Men",
+  "colors": ["Black", "White", "Red", "Purple", "Blue", "Yellow", "Peach"],
+  "image":"/SHADOW-499/BLACK FRONT black.jpg",
+  "colorImages": {
+    "Black": "/SHADOW-499/BLACK FRONT black.jpg",
+    "White": "/SHADOW-499/WHITE FRONT white.jpg",
+    "Red": "/SHADOW-499/red front white.jpg",
+    "Purple": "/SHADOW-499/LEVENDOR FRONT black.jpg",
+    "Blue": "/SHADOW-499/SKY BLUE FRONT black.jpg",
+    "Yellow": "/SHADOW-499/YELLOW FRONT black.jpg",
+    "Peach": "/SHADOW-499/WHEAT FRONT black.jpg"
+  },
+  "galleryImages": {
+    "Black": [
+      "/SHADOW-499/BLACK FRONT black.jpg",
+      "/SHADOW-499/black front white.jpg"
+    ],
+    "White": [
+      "/SHADOW-499/WHITE FRONT white.jpg",
+      "/SHADOW-499/white front green.jpg"
+    ],
+    "Red": [
+      "/SHADOW-499/red front white.jpg",
+      "/SHADOW-499/RED FRONT white b.jpg"
+    ],
+    "Purple": [
+      "/SHADOW-499/LEVENDOR FRONT black.jpg",
+      "/SHADOW-499/LEVENDOR FRONT white.jpg"
+    ],
+    "Blue": [
+      "/SHADOW-499/SKY BLUE FRONT black.jpg"
+    ],
+    "Yellow": [
+      "/SHADOW-499/YELLOW FRONT black.jpg",
+      "/SHADOW-499/YELLOW FRONT green.jpg"
+    ],
+    "Peach": [
+      "/SHADOW-499/WHEAT FRONT black.jpg",
+      "/SHADOW-499/WHEAT FRONT green.jpg"
+    ]
+  }
+},
+{
+  "id": "39",
+  "name": "Everyday Bloom",
+  "price": 399,
+  "category": "Women",
+  "colors": ["Blue", "White", "Red", "Purple", "lack", "Yellow", "Peach"],
+  "image":"/GIRLS-NORMAL-399/GIRL BLUE  front white.jpg",
+  "colorImages": {
+    "Black": "/GIRLS-NORMAL-399/GIRL black   front white.jpg",
+    "White": "/GIRLS-NORMAL-399/GIRL WHITE  FRONT green.jpg",
+    "Red": "/GIRLS-NORMAL-399/GIRL RED FRONT white.jpg",
+    "Purple": "/GIRLS-NORMAL-399/GIRL LEVENDOR FRONT white.jpg",
+    "Blue": "/GIRLS-NORMAL-399/GIRL BLUE  front white.jpg",
+    "Yellow": "/GIRLS-NORMAL-399/GIRL YELLOW front green.jpg",
+    "Peach": "/GIRLS-NORMAL-399/GIRL WHEAT  front green.jpg"
+  },
+  "galleryImages": {
+    "Black": ["/GIRLS-NORMAL-399/GIRL black   front white.jpg"],
+    "White": ["/GIRLS-NORMAL-399/GIRL WHITE  FRONT green.jpg"],
+    "Red": ["/GIRLS-NORMAL-399/GIRL RED FRONT white.jpg"],
+    "Purple": ["/GIRLS-NORMAL-399/GIRL LEVENDOR FRONT white.jpg"],
+    "Blue": ["/GIRLS-NORMAL-399/GIRL BLUE  front white.jpg"],
+    "Yellow": ["/GIRLS-NORMAL-399/GIRL YELLOW front green.jpg"],
+    "Peach": ["/GIRLS-NORMAL-399/GIRL WHEAT  front green.jpg"]
+  }
+},
+
+
+{
+  "id": "37",
+  "name": "Rollin’ Romance",
+  "price": 599,
+  "category": "Men",
+  "colors": ["Purple", "White", "Red", "Black", "Blue", "Yellow", "Peach"],
+  "image": "/ROLLIN-599/LEVENDOR FRONT BLACK.jpg",
+  "colorImages": {
+    "Black": "/ROLLIN-599/BLACK FRONT BLACK.jpg",
+    "White": "/ROLLIN-599/WHITE FRONT WHITE.jpg",
+    "Red": "/ROLLIN-599/red front WHITE.jpg",
+    "Purple": "/ROLLIN-599/LEVENDOR FRONT BLACK.jpg",
+    "Blue": "/ROLLIN-599/SKY BLUE FRONT WHITE.jpg",
+    "Peach": "/ROLLIN-599/WHEAT FRONT MEN WHITE.jpg",
+    "Yellow": "/ROLLIN-599/YELLOW FRONT MEN WHITE.jpg"
+  },
+  "galleryImages": {
+    "Black": [
+      "/ROLLIN-599/BLACK FRONT BLACK.jpg",
+      "/ROLLIN-599/black front MEN WHITE.jpg",
+      "/ROLLIN-599/BLACK BACK BLACK.jpg",
+      "/ROLLIN-599/black back MEN WHITE.jpg"
+    ],
+    "White": [
+      "/ROLLIN-599/WHITE FRONT WHITE.jpg",
+      "/ROLLIN-599/white front MEN WHITE.jpg",
+      "/ROLLIN-599/WHITE BACK BLACK.jpg",
+      "/ROLLIN-599/white back MEN BLACK.jpg"
+    ],
+    "Red": [
+      "/ROLLIN-599/red front WHITE.jpg",
+      "/ROLLIN-599/RED FRONT MEN WHITE.jpg",
+      "/ROLLIN-599/red back WHITE.jpg",
+      "/ROLLIN-599/red back BLACK.jpg",
+      "/ROLLIN-599/RED BACK MEN BLACK.jpg",
+      "/ROLLIN-599/RED BACK MEN WHITE.jpg"
+    ],
+    "Purple": [
+      "/ROLLIN-599/LEVENDOR FRONT BLACK.jpg",
+      "/ROLLIN-599/LEVENDOR FRONT MEN WHITE.jpg",
+      "/ROLLIN-599/LEVENDOR BACK BLACK.jpg",
+      "/ROLLIN-599/LEVENDOR BACK WHITE.jpg",
+      "/ROLLIN-599/LEVENDOR BACK MEN BLACK.jpg",
+      "/ROLLIN-599/LEVENDOR BACK MEN WHITE.jpg"
+    ],
+    "Blue": [
+      "/ROLLIN-599/SKY BLUE FRONT WHITE.jpg",
+      "/ROLLIN-599/SKY BLUE BACK BLACK.jpg",
+      "/ROLLIN-599/SKY BLUE BACK WHITE.jpg"
+    ],
+    "Peach": [
+      "/ROLLIN-599/WHEAT FRONT MEN WHITE.jpg",
+      "/ROLLIN-599/WHEAT FRONT WHITE.jpg",
+      "/ROLLIN-599/WHEAT BACK MEN BLACK.jpg",
+      "/ROLLIN-599/WHEAT BACK MEN WHITE.jpg",
+      "/ROLLIN-599/WHEAT  BACK BLACK.jpg",
+      "/ROLLIN-599/WHEAT  BACK WHITE.jpg"
+    ],
+    "Yellow": [
+      "/ROLLIN-599/YELLOW FRONT MEN WHITE.jpg",
+      "/ROLLIN-599/YELLOW FRONT WHITE.jpg",
+      "/ROLLIN-599/YELLOW BACK MEN BLACK.jpg",
+      "/ROLLIN-599/YELLOW BACK MEN WHITE.jpg",
+      "/ROLLIN-599/YELLOW BACK WHITE.jpg",
+      "/ROLLIN-599/YELLOW BACK BLACK.jpg"
+    ]
+  }
+},
+{
+  "id": "14",
+  "name": "Shivarpan (शिवार्पण)",
+  "price": 499,
+  "category": "Men",
+  "colors": ["Wheat", "White", "Red", "Purple", "Blue", "Yellow", "Black"],
+  "image": "/SHIVARPAN-499/WHEAT FRONT men black.jpg",
+  "colorImages": {
+    "Black": "/SHIVARPAN-499/black front men white.jpg",
+    "White": "/SHIVARPAN-499/white front men black.jpg",
+    "Red": "/SHIVARPAN-499/red front black.jpg",
+    "Purple": "/SHIVARPAN-499/LEVENDOR FRONT men black.jpg",
+    "Blue": "/SHIVARPAN-499/SKY BLUE FRONT black.jpg",
+    "Yellow": "/SHIVARPAN-499/YELLOW FRONT men black.jpg",
+    "Wheat": "/SHIVARPAN-499/WHEAT FRONT men black.jpg"
+  },
+  "galleryImages": {
+    "Black": [
+      "/SHIVARPAN-499/black front men white.jpg",
+      "/SHIVARPAN-499/BLACK FRONT white.jpg"
+    ],
+    "White": [
+      "/SHIVARPAN-499/white front men black.jpg",
+      "/SHIVARPAN-499/WHITE FRONT black.jpg"
+    ],
+    "Red": [
+      "/SHIVARPAN-499/red front black.jpg",
+      "/SHIVARPAN-499/red front white.jpg",
+      "/SHIVARPAN-499/RED FRONT men black.jpg",
+      "/SHIVARPAN-499/RED FRONT white men.jpg"
+    ],
+    "Purple": [
+      "/SHIVARPAN-499/LEVENDOR FRONT men black.jpg",
+      "/SHIVARPAN-499/LEVENDOR FRONT black.jpg",
+      "/SHIVARPAN-499/LEVENDOR FRONT white.jpg",
+      "/SHIVARPAN-499/LEVENDOR FRONT men white.jpg"
+    ],
+    "Blue": [
+      "/SHIVARPAN-499/SKY BLUE FRONT black.jpg",
+      "/SHIVARPAN-499/SKY BLUE FRONT white.jpg"
+    ],
+    "Yellow": [
+      "/SHIVARPAN-499/YELLOW FRONT men black.jpg",
+      "/SHIVARPAN-499/YELLOW FRONT black.jpg",
+      "/SHIVARPAN-499/YELLOW FRONT men white.jpg",
+      "/SHIVARPAN-499/YELLOW FRONT yellow.jpg"
+    ],
+    "Peach": [
+      "/SHIVARPAN-499/WHEAT FRONT men black.jpg",
+      "/SHIVARPAN-499/WHEAT FRONT men white.jpg",
+      "/SHIVARPAN-499/WHEAT FRONT black.jpg",
+      "/SHIVARPAN-499/WHEAT FRONT white.jpg"
+    ]
+  }
+},
+
+
+
    {
     id: "15",
     name: "DO IT Anyway TEE",
@@ -1279,6 +1482,394 @@ const tshirts = [
   }
    
   },
+
+  {
+    "id": "40",
+    "name": "Jinchuriki Power Mens",
+    "price": 459,
+    "category": "Men",
+    "colors": ["Black", "White"],
+    "image": "/JINCHURIKI-459/black front v.jpg",
+    "colorImages": {
+      "Black": "/JINCHURIKI-459/black front v.jpg",
+      "White": "/JINCHURIKI-459/mens t shirts/white front v.jpg"
+    },
+    "galleryImages": {
+      "Black": ["/JINCHURIKI-459/black front v.jpg"],
+      "White": ["/JINCHURIKI-459/white front v.jpg"]
+    }
+  },
+  {
+    "id": "41",
+    "name": "Jinchuriki Power Girls",
+    "price": 459,
+    "category": "Women",
+    "colors": ["Black", "White"],
+    "image": "/JINCHURIKI-459/GIRL black   front v.jpg",
+    "colorImages": {
+      "Black": "/JINCHURIKI-459/GIRL black   front v.jpg",
+      "White": "/JINCHURIKI-459/GIRL WHITE  FRONT v.jpg"
+    },
+    "galleryImages": {
+      "Black": ["/JINCHURIKI-459/GIRL black   front v.jpg"],
+      "White": ["/JINCHURIKI-459/GIRL WHITE  FRONT v.jpg"]
+    }
+  },
+{
+  "id": "42",
+  "name": "RELAX Reaper Tee",
+  "price": 599,
+  "category": "Men",
+  "colors": ["White", "Black", "Red", "Purple", "Blue", "Yellow", "Wheat"],
+  "image": "/RELAX-599/white front men black.jpg",
+  "colorImages": {
+    "Black": "/RELAX-599/black front men black.jpg",
+    "White": "/RELAX-599/white front men black.jpg",
+    "Red": "/RELAX-599/red front black.jpg",
+    "Purple": "/RELAX-599/LEVENDOR FRONT men black.jpg",
+    "Blue": "/RELAX-599/SKY BLUE FRONT black.jpg",
+    "Yellow": "/RELAX-599/YELLOW FRONT men black.jpg",
+    "Wheat": "/RELAX-599/WHEAT FRONT black.jpg"
+  },
+  "galleryImages": {
+    "Black": [
+      "/RELAX-599/black front men black.jpg",
+      "/RELAX-599/BLACK FRONT black.jpg",
+      "/RELAX-599/BLACK BACK black.jpg"
+    ],
+    "White": [
+      "/RELAX-599/white front men black.jpg",
+      "/RELAX-599/WHITE FRONT black.jpg",
+      "/RELAX-599/WHITE BACK black.jpg"
+    ],
+    "Red": [
+      "/RELAX-599/red front black.jpg",
+      "/RELAX-599/RED FRONT men black.jpg",
+      "/RELAX-599/RED BACK men black.jpg",
+      "/RELAX-599/red back black.jpg"
+    ],
+    "Purple": [
+      "/RELAX-599/LEVENDOR FRONT men black.jpg",
+      "/RELAX-599/LEVENDOR BACK men black.jpg",
+      "/RELAX-599/LEVENDOR FRONT black.jpg",
+      "/RELAX-599/LEVENDOR BACK black.jpg"
+    ],
+    "Blue": [
+      "/RELAX-599/SKY BLUE FRONT black.jpg",
+      "/RELAX-599/SKY BLUE BACK black.jpg"
+    ],
+    "Yellow": [
+      "/RELAX-599/YELLOW FRONT men black.jpg",
+      "/RELAX-599/YELLOW FRONT black.jpg",
+      "/RELAX-599/YELLOW BACK men black.jpg",
+      "/RELAX-599/YELLOW BACK black.jpg"
+    ],
+    "Wheat": [
+      "/RELAX-599/WHEAT FRONT black.jpg",
+      "/RELAX-599/WHEAT BACK men black.jpg",
+      "/RELAX-599/WHEAT  BACK black.jpg"
+    ]
+  }
+},
+
+
+ 
+  {
+    "id": "44",
+    "name": "squid game new design Tee",
+    "price": 699,
+    "category": "Men",
+    "colors": ["Black", "White"],
+    "image": "/squid-699/design 2/BLACK FRONT BLACK.jpg",
+    "colorImages": {
+      "Black": "/squid-699/design 2/BLACK FRONT BLACK.jpg",
+      "White": "/squid-699/design 2/WHITE FRONT WHITE.jpg"
+    },
+    "galleryImages": {
+      "Black": [
+        "/squid-699/design 2/BLACK FRONT BLACK.jpg",
+        "/squid-699/design 2/BLACK BACK BLACK.jpg"
+      ],
+      "White": [
+        "/squid-699/design 2/WHITE FRONT WHITE.jpg",
+        "/squid-699/design 2/WHITE BACK WHITE.jpg"
+      ]
+    }
+  },
+  {
+    "id": "45",
+    "name": "squid game Mens Tee",
+    "price": 699,
+    "category": "Men",
+    "colors": ["Black", "White"],
+    "image": "/squid-699/design men 1/black front WHITE FRONT.jpg",
+    "colorImages": {
+      "Black": "/squid-699/design men 1/black front WHITE FRONT.jpg",
+      "White": "/squid-699/design men 1/white front  design.jpg"
+    },
+    "galleryImages": {
+      "Black": [
+        "/squid-699/design men 1/black front WHITE FRONT.jpg",
+        "/squid-699/design men 1/black back WHITE.jpg"
+      ],
+      "White": [
+        "/squid-699/design men 1/white front design white.jpg",
+        "/squid-699/design men 1/white front  design.jpg"
+      ]
+    }
+  },
+ 
+  
+  {
+    "id": "47",
+    "name": "squid game Tee",
+    "price": 699,
+    "category": "Girls",
+    "colors": ["Black", "White"],
+    "image": "/squid-699/design girl 1/GIRL black   black  front.jpg",
+    "colorImages": {
+      "Black": "/squid-699/design girl 1/GIRL black   black  front.jpg",
+      "White": "/squid-699/design girl 1/GIRL WHITE  BACK squid.jpg"
+    },
+    "galleryImages": {
+      "Black": [
+        "/squid-699/design girl 1/GIRL black   black  front.jpg",
+        "/squid-699/design girl 1/GIRL BLACK BACK back.jpg"
+      ],
+      "White": [
+        "/squid-699/design girl 1/GIRL WHITE  BACK squid.jpg"
+      ]
+    }
+  },
+  {
+    "id": "48",
+    "name": "squid game girls Tee",
+    "price": 699,
+    "category": "Women",
+    "colors": ["Black", "White"],
+    "image": "/squid-699/design girl 2/GIRL black   front squid.jpg",
+    "colorImages": {
+      "Black": "/squid-699/design girl 2/GIRL black   front squid.jpg",
+      "White": "/squid-699/design girl 2/GIRL WHITE  FRONT squid white.jpg"
+    },
+    "galleryImages": {
+      "Black": [
+        "/squid-699/design girl 2/GIRL black   front squid.jpg",
+        "/squid-699/design girl 2/GIRL BLACK BACK squid.jpg"
+      ],
+      "White": [
+        "/squid-699/design girl 2/GIRL WHITE  FRONT squid white.jpg",
+        "/squid-699/design girl 2/GIRL WHITE  BACK white.jpg"
+      ]
+    }
+  },
+  
+  {
+    "id": "49",
+    "name": "Tattva Tee",
+    "price": 599,
+    "category": "Men",
+    "colors": ["Blue", "White", "Red", "Purple", "Black", "Yellow", "Wheat"],
+    "image": "/tattva-599/SKY BLUE FRONT black.jpg",
+    "colorImages": {
+      "Black": "/tattva-599/BLACK FRONT white.jpg",
+      "White": "/tattva-599/WHITE FRONT black.jpg",
+      "Red": "/tattva-599/red front black.jpg",
+      "Purple": "/tattva-599/LEVENDOR FRONT black.jpg",
+      "Blue": "/tattva-599/SKY BLUE FRONT black.jpg",
+      "Yellow": "/tattva-599/YELLOW FRONT black.jpg",
+      "Wheat": "/tattva-599/WHEAT FRONT black.jpg"
+    },
+    "galleryImages": {
+      "Black": [
+        "/tattva-599/BLACK FRONT white.jpg",
+        "/tattva-599/BLACK BACK white.jpg"
+      ],
+      "White": [
+        "/tattva-599/WHITE FRONT black.jpg",
+        "/tattva-599/WHITE BACK black.jpg"
+      ],
+      "Red": [
+        "/tattva-599/red front black.jpg",
+        "/tattva-599/red back black.jpg"
+      ],
+      "purple": [
+        "/tattva-599/LEVENDOR FRONT black.jpg",
+        "/tattva-599/LEVENDOR BACK black.jpg"
+      ],
+      "Blue": [
+        "/tattva-599/SKY BLUE FRONT black.jpg",
+        "/tattva-599/SKY BLUE BACK black.jpg"
+      ],
+      "Yellow": [
+        "/tattva-599/YELLOW FRONT black.jpg",
+        "/tattva-599/YELLOW BACK black.jpg"
+      ],
+      
+      "Wheat": [
+        "/tattva-599/WHEAT FRONT black.jpg",
+        "/tattva-599/WHEAT BACK black.jpg"
+      ]
+    }
+  },
+  
+  {
+    "id": "50",
+    "name": "The BAD BOY tee",
+    "price": 369,
+    "category": "Boys",
+    "colors": ["Black", "White", "Red", "Purple", "Blue", "Yellow", "Peach"],
+    "image": "/bad-boy-tee-369/boy men black front.jpg",
+    "colorImages": {
+      "Black": "/bad-boy-tee-369/boy men black front.jpg",
+      "White": "/bad-boy-tee-369/boy men white front.jpg",
+      "Red": "/bad-boy-tee-369/boys men RED FRONT.jpg",
+      "Purple": "/bad-boy-tee-369/boy men LEVENDOR FRONT.jpg",
+      "Blue": "/bad-boy-tee-369/boy SKY BLUE FRONT.jpg",
+      "Yellow": "/bad-boy-tee-369/boy men YELLOW FRONT.jpg",
+      "Peach": "/bad-boy-tee-369/boy men WHEAT FRONT.jpg"
+    },
+    "galleryImages": {
+      "Black": ["/bad-boy-tee-369/boy men black front.jpg"],
+      "White": ["/bad-boy-tee-369/boy men white front.jpg"],
+      "Red": [
+        "/bad-boy-tee-369/boys men RED FRONT.jpg",
+        "/bad-boy-tee-369/boy red front.jpg"
+      ],
+      "Purple": [
+        "/bad-boy-tee-369/boy LEVENDOR FRONT.jpg",
+        "/bad-boy-tee-369/boy men LEVENDOR FRONT.jpg"
+      ],
+      "Blue": ["/bad-boy-tee-369/boy SKY BLUE FRONT.jpg"],
+      "Yellow": ["/bad-boy-tee-369/boy men YELLOW FRONT.jpg"],
+      "Peach": [
+        "/bad-boy-tee-369/boy WHEAT FRONT.jpg",
+        "/bad-boy-tee-369/boy men WHEAT FRONT.jpg"
+      ]
+    }
+  },
+
+  {
+    "id": "51",
+    "name": "The PUNISHER tee",
+    "price": 499,
+    "category": "Men",
+    "colors": ["White", "Black", "Red", "Purple", "Blue", "Yellow", "Peach"],
+    "image": "/punisher-tee-499/PUNISHER BLACK white front.jpg",
+    "colorImages": {
+      "Black":        "/punisher-tee-499/PIUNISHER MEN black front.jpg",
+
+      "White": "/punisher-tee-499/PUNISHER BLACK white front.jpg",
+      "Red": "/punisher-tee-499/PUNISHER MEN RED FRONT.jpg",
+      "Purple": "/punisher-tee-499/PUNISHER MENLEVENDOR FRONT.jpg",
+      "Blue": "/punisher-tee-499/PUNISHER SKY BLUE FRONT.jpg",
+      "Yellow": "/punisher-tee-499/PUNISHER MEN YELLOW FRONT.jpg",
+      "Peach": "/punisher-tee-499/PUNISHER MEN WHEAT FRONT.jpg"
+    },
+    "galleryImages": {
+      "Black": [
+                "/punisher-tee-499/punisher white BLACK FRONT.jpg",
+
+        "/punisher-tee-499/PIUNISHER MEN black front.jpg",
+      
+      ],
+      "White": [
+        "/punisher-tee-499/PUNISHER WHITE FRONT.jpg",
+        // "/punisher-tee-499/PUNISHER PINK WHITE FRONT.jpg"
+      ],
+      "Red": [
+        "/punisher-tee-499/PUNISHER MEN RED FRONT.jpg",
+        "/punisher-tee-499/PUNISHER red front.jpg"
+      ],
+      "Purple": [
+        "/punisher-tee-499/PUNISHER LEVENDOR FRONT.jpg",
+        "/punisher-tee-499/PUNISHER MENLEVENDOR FRONT.jpg"
+      ],
+      "Blue": ["/punisher-tee-499/PUNISHER SKY BLUE FRONT.jpg"],
+      "Yellow": [
+        "/punisher-tee-499/PUNISHER MEN YELLOW FRONT.jpg",
+        "/punisher-tee-499/PUNISHER YELLOW FRONT.jpg"
+      ],
+      "Peach": [
+        "/punisher-tee-499/PUNISHER MEN WHEAT FRONT.jpg",
+        "/punisher-tee-499/PUNISHER WHITE WHEAT FRONT.jpg",
+        "/punisher-tee-499/PUNISHER BLACK WHEAT FRONT.jpg",
+        "/punisher-tee-499/PUNISHER BLACK  WHEAT FRONT.jpg"
+      ]
+    }
+  },
+  
+  {
+    "id": "20A",
+    "name": "The Symbiote Gym Tee",
+    "price": 599,
+    "category": "Men",
+    "colors": ["Black", "White", "Red", "Purple", "Blue", "Yellow", "Peach"],
+    "image": "/symbiote-gym-tee-599/WHEAT FRONT BLACK.jpg",
+    "colorImages": {
+      "Black": "/symbiote-gym-tee-599/black front men white.jpg",
+
+      "White":  
+        "/symbiote-gym-tee-599/white back men black.jpg",
+      "Red": "/symbiote-gym-tee-599/RED FRONT men black.jpg",
+      "Purple":         "/symbiote-gym-tee-599/LEVENDOR BACK men black.jpg",
+
+      "Blue":   "/symbiote-gym-tee-599/SKY BLUE FRONT BLACK.jpg",
+      "Yellow": "/symbiote-gym-tee-599/YELLOW FRONT men black.jpg",
+      "Peach":        "/symbiote-gym-tee-599/WHEAT FRONT men black.jpg",
+
+    },
+    "galleryImages": {
+      "Black": [
+        "/symbiote-gym-tee-599/black front men white.jpg",
+        "/symbiote-gym-tee-599/black back men white.jpg",
+      
+      ],
+      "White": [
+       
+        "/symbiote-gym-tee-599/white back men black.jpg",
+        "/symbiote-gym-tee-599/white front men black.jpg",
+     
+      ],
+      "Red": [
+        "/symbiote-gym-tee-599/RED FRONT men black.jpg",
+        "/symbiote-gym-tee-599/RED BACK men white.jpg",
+      ],
+      "Purple": [
+  "/symbiote-gym-tee-599/LEVENDOR FRONT men black.jpg",
+        "/symbiote-gym-tee-599/LEVENDOR BACK men black.jpg",
+      ],
+      "Blue": [
+        "/symbiote-gym-tee-599/SKY BLUE FRONT BLACK.jpg",
+        "/symbiote-gym-tee-599/SKY BLUE BACK BLACK.jpg",
+      ],
+      "Yellow": [
+        "/symbiote-gym-tee-599/YELLOW FRONT men black.jpg",
+     
+     
+        "/symbiote-gym-tee-599/YELLOW BACK men black.jpg",
+      ],
+      "Peach": [
+      
+        "/symbiote-gym-tee-599/WHEAT FRONT men black.jpg",
+       
+        "/symbiote-gym-tee-599/WHEAT BACK men black.jpg",
+ 
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
   
   
 ];

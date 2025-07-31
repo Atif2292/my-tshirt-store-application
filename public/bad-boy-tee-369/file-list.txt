@@ -1,0 +1,15 @@
+.
+./boy red front.jpg
+./boys men RED FRONT.jpg
+./boy WHEAT FRONT.jpg
+./boy men black front.jpg
+./black boy.jpg
+./boy men YELLOW FRONT.jpg
+./boy men white front.jpg
+./file-list.txt
+./boy men WHEAT FRONT.jpg
+./boy men LEVENDOR FRONT.jpg
+./boy SKY BLUE FRONT.jpg
+./boy LEVENDOR FRONT.jpg
+./boy WHITE FRONT.jpg
+./boy YELLOW FRONT.jpg

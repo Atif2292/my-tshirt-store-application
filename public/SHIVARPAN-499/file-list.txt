@@ -1,0 +1,24 @@
+.
+./LEVENDOR FRONT black.jpg
+./WHEAT FRONT men white.jpg
+./LEVENDOR FRONT white.jpg
+./LEVENDOR FRONT men white.jpg
+./YELLOW FRONT men black.jpg
+./LEVENDOR FRONT men black.jpg
+./red front black.jpg
+./YELLOW FRONT black.jpg
+./white front men black.jpg
+./SKY BLUE FRONT black.jpg
+./SKY BLUE FRONT white.jpg
+./BLACK FRONT white.jpg
+./RED FRONT men black.jpg
+./black front men white.jpg
+./YELLOW FRONT men white.jpg
+./WHEAT FRONT white.jpg
+./WHEAT FRONT black.jpg
+./YELLOW FRONT yellow.jpg
+./WHITE FRONT black.jpg
+./RED FRONT white men.jpg
+./file-list.txt
+./red front white.jpg
+./WHEAT FRONT men black.jpg
