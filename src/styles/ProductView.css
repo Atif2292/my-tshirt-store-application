@@ -85,7 +85,7 @@ p {
 
 /* Payment failure color */
 p.payment-failure {
-  color: #000; /* Red color for payment failure */
+  color: #ce0e0e; /* Red color for payment failure */
 }
 .size-selector {
   margin: 20px 0;
@@ -223,65 +223,50 @@ p.payment-failure {
   font-weight: bold;
   color: #000;
 }
-/* Carousel Container */
-.carousel .slide img {
-  max-height: 400px;
-  object-fit: contain;
-}
-
-
-.carousel .thumbs-wrapper {
-  margin-top: 10px;
-}
-.carousel .thumb {
-  border: 2px solid #ccc;
-  padding: 2px;
-  border-radius: 4px;
-}
-
-.carousel .thumb img {
-  border-radius: 4px;
-  object-fit: cover;
-  background: #fff; /* In case image has transparency */
-}
-
-.carousel .thumb.selected {
-  border: 2px solid #000;
-}
-
-.carousel-root {
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-}
-.carousel .control-arrow {
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-}
-
-.carousel .control-next.control-arrow:before,
-.carousel .control-prev.control-arrow:before {
-  color: white;
-  font-size: 24px;
-}
-.carousel .thumb img {
-  height: 60px;
-  object-fit: cover;
-}
 
 
 @media (max-width: 768px) {
   .product-view {
     flex-direction: column;
     padding: 10px;
+    width: 100%;
+  }
+
+  .product-view img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
   .info {
     margin-left: 0;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .size-options {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .color-options {
+    justify-content: center;
+  }
+
+  .add-to-cart-btn,
+  .buy-btn {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .related-list {
+    flex-direction: column;
+    align-items: center;
   }
 
   .related-item {
-    width: 100%;
+    width: 90%;
   }
 }
 
