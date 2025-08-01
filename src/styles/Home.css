@@ -503,13 +503,27 @@ body {
     height: 60vh;
   }
 
-   .product-section {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns in mobile */
-    padding: 20px;
-    gap: 12px;
-  }
+  .product-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 👈 this is the key */
+  gap: 15px;
+  padding: 10px;
+}
 
-  .product-card {
-    padding: 10px;
-  }
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 }
