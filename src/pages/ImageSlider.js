@@ -38,7 +38,7 @@ function ImageSlider({ images }) {
       </div>
 
       {/* Thumbnail Previews */}
-      <div className="thumbnails">
+      {/* <div className="thumbnails">
         {images.map((img, index) => (
           <img
             key={index}
@@ -48,7 +48,7 @@ function ImageSlider({ images }) {
             onClick={() => goToSlide(index)}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
