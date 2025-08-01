@@ -1,0 +1,12 @@
+.
+./back white.jpg
+./back black.jpg
+./double.jpg
+./yellow.jpg
+./front red.jpg
+./double black.jpg
+./back red.jpg
+./red double.jpg
+./front black.jpg
+./front white.jpg
+./file-list.txt

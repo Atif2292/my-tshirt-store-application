@@ -10,60 +10,67 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   background-color: #fff;
+  position: relative;
 }
 
 .product-view img {
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
   border-radius: 8px;
   object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .info {
   margin-left: 20px;
   flex-grow: 1;
-  text-align: center; /* Center the text for better alignment */
+  text-align: center;
 }
 
 .info h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #333; /* Darker color for the product name */
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .price {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #2d3d44;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .add-to-cart-btn, .buy-btn {
-  background-color: #000; /* Matching color */
+  background-color: #000;
   color: white;
   border: none;
-  padding: 12px 20px;
+  padding: 12px 24px;
   font-size: 1.2rem;
   margin-right: 10px;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: 0.3s ease all;
   margin-top: 10px;
 }
 
 .add-to-cart-btn:hover, .buy-btn:hover {
-  background-color: #000; /* Darker shade for hover effect */
+  background-color: #222;
 }
 
 .cart-info {
   margin-top: 30px;
   padding-top: 20px;
   border-top: 1px solid #e5e5e5;
+  width: 100%;
 }
 
 .cart-info h3 {
   font-size: 1.4rem;
   margin-bottom: 10px;
-  color: #333; /* Dark color for the section header */
+  color: #333;
+  font-weight: 600;
 }
 
 .cart-info ul {
@@ -79,14 +86,14 @@
 
 p {
   font-size: 1.2rem;
-  color: #3b3a38; /* Success status color */
+  color: #3b3a38;
   margin-top: 20px;
 }
 
-/* Payment failure color */
 p.payment-failure {
-  color: #ce0e0e; /* Red color for payment failure */
+  color: #ce0e0e;
 }
+
 .size-selector {
   margin: 20px 0;
 }
@@ -95,16 +102,18 @@ p.payment-failure {
   display: flex;
   gap: 10px;
   margin-top: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .size-btn {
-  padding: 8px 14px;
+  padding: 10px 16px;
   border: 1px solid #aaa;
   background-color: #fff;
   cursor: pointer;
   border-radius: 6px;
   font-weight: 600;
-  transition: 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .size-btn.selected {
@@ -113,25 +122,24 @@ p.payment-failure {
   border: 2px solid #000;
 }
 
-/* Back to Product Button */
 .back1-btn {
   position: absolute;
   top: 20px;
   left: 20px;
-  /* background-color:Consistent color */
-  color: rgb(26, 25, 25); /* Dark text for better contrast */
+  color: rgb(26, 25, 25);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  background-color: transparent;
   transition: background-color 0.3s ease;
 }
 
 .back1-btn:hover {
-  background-color: #e7e2e2; /* Darker shade for hover effect */
+  background-color: #e7e2e2;
 }
-/* Color selection buttons */
+
 .color-selector {
   margin-bottom: 16px;
 }
@@ -145,35 +153,29 @@ p.payment-failure {
 .color-options {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
+  justify-content: center;
 }
 
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+  display: inline-block;
+  background-size: cover;
+}
 
-
-.color-btn::after {
-  content: '';
-  display: block;
-  padding-bottom: 100%;
+.color-btn.selected {
+  border: 3px solid #000;
 }
 
 .color-btn:focus {
   outline: none;
-  box-shadow: 0 0 0 2px rgba(0,0,0,0.3);
-}
-
-.color-btn {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  border: 2px solid #ccc;
-  margin: 4px;
-  cursor: pointer;
-  padding: 0;
-  outline: none;
-}
-
-.color-btn.selected {
-  border: 2px solid #000;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.2);
 }
 
 .cart-icon {
@@ -182,12 +184,14 @@ p.payment-failure {
   right: 20px;
   font-size: 30px;
   cursor: pointer;
-  color: #333; /* Dark color for the cart icon */
+  color: #333;
 }
+
 .related-products {
   margin-top: 40px;
   padding: 20px;
   border-top: 1px solid #eee;
+  width: 100%;
 }
 
 .related-products h3 {
@@ -200,10 +204,12 @@ p.payment-failure {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .related-item {
   width: 30%;
+  max-width: 250px;
   cursor: pointer;
   text-align: center;
 }
@@ -212,18 +218,23 @@ p.payment-failure {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.related-item img:hover {
+  transform: scale(1.03);
 }
 
 .related-item p {
   margin: 10px 0 5px;
   font-weight: 500;
+  color: #444;
 }
 
 .related-item span {
   font-weight: bold;
   color: #000;
 }
-
 
 @media (max-width: 768px) {
   .product-view {
@@ -269,4 +280,3 @@ p.payment-failure {
     width: 90%;
   }
 }
-

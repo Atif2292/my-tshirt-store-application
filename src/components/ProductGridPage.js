@@ -47,7 +47,7 @@ const ProductGridPage = () => {
           thumbClassName="thumb"
           trackClassName="track"
           min={0}
-          max={5000}
+          max={1000}
           step={50}
           value={price}
           onChange={(val) => setPrice(val)}
@@ -58,13 +58,13 @@ const ProductGridPage = () => {
 
 
       {/* Category Buttons */}
-      <div className="category">
+      {/* <div className="category">
         <button onClick={() => setCategory('All')}>All</button>
         <button onClick={() => setCategory('Men')}>Men</button>
         <button onClick={() => setCategory('Women')}>Women</button>
       
         
-      </div>
+      </div> */}
 
       {/* Product Grid */}
       <div className="product-section">
