@@ -7,7 +7,7 @@ import ReactSlider from 'react-slider';
 const ProductGridPage = () => {
   const [category, setCategory] = useState('All');
   const [search, setSearch] = useState('');
-  const [price, setPrice] = useState([0, 5000]);
+  const [price, setPrice] = useState([0, 1000]);
   const navigate = useNavigate();
 
   const filtered = tshirts.filter(

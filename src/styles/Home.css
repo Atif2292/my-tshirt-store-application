@@ -503,11 +503,13 @@ body {
     height: 60vh;
   }
 
-  .product-section {
-    grid-template-columns: 1fr;
+   .product-section {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns in mobile */
     padding: 20px;
+    gap: 12px;
   }
 
   .product-card {
-    padding: 12px;
-  }}  
+    padding: 10px;
+  }
+}
