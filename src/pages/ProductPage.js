@@ -21,11 +21,20 @@ function ProductPage() {
   const [selectedColor, setSelectedColor] = useState('');
 
   // ✅ Scroll to top of page when ID changes
-  useEffect(() => {
-    if (topRef.current) {
-      topRef.current.scrollIntoView({ behavior: 'auto' });
-    }
-  }, [id]);
+ useEffect(() => {
+  if (topRef.current) {
+    topRef.current.scrollIntoView({ behavior: 'auto' });
+  }
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  };
+
+  scrollToTop();
+  setTimeout(scrollToTop, 100);
+  setTimeout(scrollToTop, 300);
+}, [id]);
+
 
   // ✅ Set default color
   useEffect(() => {
