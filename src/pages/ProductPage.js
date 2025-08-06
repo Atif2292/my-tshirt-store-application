@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useLayoutEffect } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import tshirts from '../data';
 import anime from '../animeData';
@@ -6,11 +6,12 @@ import oneliner from '../onelinerData';
 import oversized from '../oversizedData';
 import '../styles/ProductView.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import ImageSlider from './ImageSlider'; // adjust path if needed
+import ImageSlider from './ImageSlider';
 
 function ProductPage() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const topRef = useRef(null); // ✅ create a ref for the top of the page
 
   const allProducts = [...tshirts, ...anime, ...oneliner, ...oversized];
   const product = allProducts.find(t => t.id === id);
@@ -19,49 +20,55 @@ function ProductPage() {
   const [selectedSize, setSelectedSize] = useState('M');
   const [selectedColor, setSelectedColor] = useState('');
 
-  // ✅ This one scrolls before paint, works in mobile too
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  }, [id]);
-
+  // ✅ Scroll to top of page when ID changes
   useEffect(() => {
-    updateCartItemCount();
+    if (topRef.current) {
+      topRef.current.scrollIntoView({ behavior: 'auto' });
+    }
   }, [id]);
 
+  // ✅ Set default color
   useEffect(() => {
     if (product?.colors?.length) setSelectedColor(product.colors[0]);
   }, [product]);
 
-  const updateCartItemCount = () => {
+  // ✅ Update cart count
+  useEffect(() => {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     const count = cart.reduce((t, item) => t + item.quantity, 0);
     setCartItemCount(count);
-  };
+  }, [id]);
 
   const addToCart = () => {
     if (product.colors?.length && !selectedColor) {
       alert("Please select a color.");
       return;
     }
+
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     const existing = cart.find(item =>
       item.id === product.id &&
       item.size === selectedSize &&
       item.color === selectedColor
     );
-    if (existing) existing.quantity += 1;
-    else cart.push({
-      ...product,
-      price: Number(product.price),
-      quantity: 1,
-      size: selectedSize,
-      color: selectedColor,
-      image: product.colorImages?.[selectedColor] || product.image
-    });
+
+    if (existing) {
+      existing.quantity += 1;
+    } else {
+      cart.push({
+        ...product,
+        price: Number(product.price),
+        quantity: 1,
+        size: selectedSize,
+        color: selectedColor,
+        image: product.colorImages?.[selectedColor] || product.image
+      });
+    }
 
     localStorage.setItem('cart', JSON.stringify(cart));
     alert('Added to cart!');
-    updateCartItemCount();
+    const count = cart.reduce((t, item) => t + item.quantity, 0);
+    setCartItemCount(count);
   };
 
   if (!product) return <p>T-shirt not found!</p>;
@@ -71,12 +78,8 @@ function ProductPage() {
     ? product.galleryImages[selectedColor]
     : [imageToShow];
 
-  console.log("Image to show:", imageToShow);
-  console.log("Gallery images:", galleryImages);
-
   return (
-    <div className="product-view" key={id}>
-
+    <div ref={topRef} className="product-view"> {/* ✅ Attach ref here */}
       <ImageSlider images={galleryImages} />
 
       <div className="info">

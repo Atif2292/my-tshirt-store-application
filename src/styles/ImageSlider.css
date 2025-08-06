@@ -60,4 +60,61 @@
   border-color: black;
   opacity: 1;
 }
+.slider-container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-image-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.7);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+
+.dot.active {
+  opacity: 1;
+  color: black;
+}
 

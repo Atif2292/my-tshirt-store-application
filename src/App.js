@@ -17,8 +17,13 @@ import anime from './animeData.js';
 import oversized from './oversizedData.js';
 import oneliner from './onelinerData.js';
 import ProductGridCategory from './pages/ProductGridCategory';
-
+import { useEffect } from 'react';
 function App() {
+
+  useEffect(() => {
+  window.history.scrollRestoration = 'manual';
+}, []);
+
   return (
     <Router>
       <Routes>

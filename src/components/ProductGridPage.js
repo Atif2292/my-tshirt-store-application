@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import tshirts from '../data';
 import '../styles/Home.css';
@@ -18,15 +18,19 @@ const ProductGridPage = () => {
       product.price <= price[1]
   );
 
+  // Scroll to top when filters/search change
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [category, search, price]);
+
   return (
-    
     <div className="product-grid-page">
       <button className="back-btn" onClick={() => navigate('/')}>
-  ← Back
-</button>
+        ← Back
+      </button>
 
-        {/* Search Bar with Cart */}
-        <div className="search-container">
+      {/* Search Bar with Cart */}
+      <div className="search-container">
         <input
           type="text"
           placeholder="Search for products, brands and more"
@@ -56,16 +60,6 @@ const ProductGridPage = () => {
         />
       </div>
 
-
-      {/* Category Buttons */}
-      {/* <div className="category">
-        <button onClick={() => setCategory('All')}>All</button>
-        <button onClick={() => setCategory('Men')}>Men</button>
-        <button onClick={() => setCategory('Women')}>Women</button>
-      
-        
-      </div> */}
-
       {/* Product Grid */}
       <div className="product-section">
         {filtered.map((product) => (
@@ -79,7 +73,6 @@ const ProductGridPage = () => {
           </div>
         ))}
       </div>
-      
     </div>
   );
 };
