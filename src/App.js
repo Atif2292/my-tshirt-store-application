@@ -24,11 +24,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product-grid" element={<ProductGridPage />} />
-<Route path="/product/category/:id" element={<ProductPage />} />
-  <Route path="/terms" element={<TermsAndConditions />} />
-<Route path="/refund" element={<RefundPolicy />} />
-<Route path="/privacy" element={<PrivacyPolicy />} />
-  <Route path="/order-summary" element={<OrderSummary />} />
+        < Route path="/product/category/:id" element={<ProductPage />} />
+        <Route path="/terms" element={<TermsAndConditions />} />
+        <Route path="/refund" element={<RefundPolicy />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/order-summary" element={<OrderSummary />} />
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

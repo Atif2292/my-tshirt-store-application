@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useLayoutEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import tshirts from '../data';
 import anime from '../animeData';
@@ -19,14 +19,18 @@ function ProductPage() {
   const [selectedSize, setSelectedSize] = useState('M');
   const [selectedColor, setSelectedColor] = useState('');
 
-  useEffect(() => {
-    if (product?.colors?.length) setSelectedColor(product.colors[0]);
-  }, [product]);
+  // ✅ This one scrolls before paint, works in mobile too
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   useEffect(() => {
     updateCartItemCount();
-    window.scrollTo(0, 0);
   }, [id]);
+
+  useEffect(() => {
+    if (product?.colors?.length) setSelectedColor(product.colors[0]);
+  }, [product]);
 
   const updateCartItemCount = () => {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -63,23 +67,17 @@ function ProductPage() {
   if (!product) return <p>T-shirt not found!</p>;
 
   const imageToShow = product.colorImages?.[selectedColor] || product.image;
-const galleryImages = Array.isArray(product.galleryImages?.[selectedColor])
-  ? product.galleryImages[selectedColor]
-  : [imageToShow];
-console.log("Image to show:", imageToShow);
-console.log("Gallery images:", galleryImages);
+  const galleryImages = Array.isArray(product.galleryImages?.[selectedColor])
+    ? product.galleryImages[selectedColor]
+    : [imageToShow];
+
+  console.log("Image to show:", imageToShow);
+  console.log("Gallery images:", galleryImages);
 
   return (
-    
-    <div className="product-view">
-      {/* <div>
-  <h4>Test Image:</h4>
-  <img src={galleryImages[0]} alt="Test Image" style={{ width: '200px' }} />
-</div> */}
+    <div className="product-view" key={id}>
 
-    <ImageSlider images={galleryImages} />
-
-
+      <ImageSlider images={galleryImages} />
 
       <div className="info">
         <h2>{product.name}</h2>
