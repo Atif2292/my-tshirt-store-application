@@ -1,18 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import tshirts from '../data';
+import React from 'react';
 import '../styles/Home.css';
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
-  const [category, setCategory] = useState('All');
-  const [filtered, setFiltered] = useState(tshirts);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    setFiltered(
-      category === "All" ? tshirts : tshirts.filter(t => t.category === category)
-    );
-  }, [category]);
 
   return (
     <div className="home-page">

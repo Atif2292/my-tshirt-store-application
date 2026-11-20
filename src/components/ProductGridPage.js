@@ -5,7 +5,7 @@ import '../styles/Home.css';
 import ReactSlider from 'react-slider';
 
 const ProductGridPage = () => {
-  const [category, setCategory] = useState('All');
+  const [category] = useState('All');
   const [search, setSearch] = useState('');
   const [price, setPrice] = useState([0, 1000]);
   const navigate = useNavigate();

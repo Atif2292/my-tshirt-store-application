@@ -1254,7 +1254,6 @@ const tshirts = [
       ],
       "Yellow": [
         "/unleash-the-venom-799/YELLOW BACK MEN BLACK.jpg",
- ,
         "/unleash-the-venom-799/YELLOW FRONT MEN BLACK.jpg",
    
       ],
